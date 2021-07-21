@@ -35,13 +35,16 @@ body {
     background-color: #555;
 }
 .projects {
-    background-color: black;
+    background-color: beige;
     display: grid;
     justify-content: center;
     align-items: center;
+    margin: 10%;
 }
 .projects-links {
-    background-color: wheat;
+    background-color: lightgrey;
+    margin: 10%;
+    text-align: center;
 }
 .projects a {
     border: 10px black;
