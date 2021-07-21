@@ -56,3 +56,10 @@ body {
 .projects a {
     border: 10px black;
 }
+.about {
+    width: 50%;
+    background-color: #555;
+    margin: auto;
+    margin-top: 10%;
+    color: white;
+}
