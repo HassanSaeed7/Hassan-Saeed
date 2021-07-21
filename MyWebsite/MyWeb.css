@@ -1,4 +1,34 @@
+* {
+    box-sizing: border-box;
+}
 body {
     margin: 0;
     padding: 0;
+}
+.nav-bar {
+    background-color: rgb(78, 67, 67);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.title {
+    color: white;
+    font-size: 1.5rem;
+}
+.navbar-links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.navbar-links li {
+    list-style: none;
+}
+.navbar-links a {
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+}
+.navbar-links a:hover {
+    background-color: lightgrey;
 }
