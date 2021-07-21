@@ -37,7 +37,7 @@ body {
 .Intro {
     text-align: center;
     background-color: #555;
-    padding: 20%;
+    padding: 25%;
     color: white;
     font-size: 1.5em;
 }
@@ -64,4 +64,30 @@ body {
     color: white;
     padding: 10%;
     text-align: center;
+}
+footer {
+    position: absolute;
+    right: 0;
+}
+.contactme {
+    background-color: #555;
+    padding: 5%;
+}
+.contact-links ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+.contact-links li {
+    list-style: none;
+}
+.contact-links a {
+    color: white;
+    text-decoration: none;
+}
+.contact-label {
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    margin: 5% 0 5% 0;
+    padding-bottom: 5%;
 }
