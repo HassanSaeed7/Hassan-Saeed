@@ -84,10 +84,14 @@ footer {
     color: white;
     text-decoration: none;
 }
+.contact-links a:hover {
+    padding: 20%;
+    font-size: 1.2em;
+}
 .contact-label {
     color: white;
     text-align: center;
-    font-size: 2em;
+    font-size: 4em;
     margin: 5% 0 5% 0;
     padding-bottom: 5%;
 }
