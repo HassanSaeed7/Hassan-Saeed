@@ -34,3 +34,9 @@ body {
 .navbar-links a:hover {
     background-color: #555;
 }
+.projects {
+    background-color: beige;
+}
+.projects a {
+    border: 10px black;
+}
