@@ -35,7 +35,13 @@ body {
     background-color: #555;
 }
 .projects {
-    background-color: beige;
+    background-color: black;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.projects-links {
+    background-color: wheat;
 }
 .projects a {
     border: 10px black;
