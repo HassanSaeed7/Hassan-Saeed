@@ -18,7 +18,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    line-height: 2;
     
 }
 @media (max-width: 500px) {
@@ -34,8 +33,9 @@ body {
 }
 .title {
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.5em;
     margin-left: 1%;
+    line-height: 2;
 }
 .navbar-links ul {
     margin: 0;
@@ -48,7 +48,7 @@ body {
 .navbar-links a {
     color: white;
     text-decoration: none;
-    padding: 5rem;
+    padding: 3em;
 }
 .navbar-links a:hover {
     background-color: rgb(25,25,25);
@@ -122,10 +122,14 @@ body {
   }
   
 .projects-links {
-    background-color: white;
     text-align: center;
     text-decoration: none;
     line-height: 2;
+    color: black;
+}
+.projects-links img {
+    width: 50%;
+    height: auto;
 }
 .btn {
     margin: 15px 0;
@@ -138,7 +142,9 @@ body {
     opacity: 0.9;
     transition: opacity 0.3s ease;
   }
-  
+.btn.clicked {
+    text-decoration: none;
+}
 .btn.raised {
     box-shadow: 0 1px 2px #222;
     transition: 
@@ -156,6 +162,8 @@ body {
     height: 100vh;
     text-align: center;
     justify-content: center;
+    display: flex;
+    flex-direction: row;
 }
 .contactme {
     background-color: rgb(25,25,25);
@@ -256,6 +264,17 @@ body {
     font-family: 'Tourney', cursive;
 }
 .copyright {
-    position: absolute;
-    right: 1px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(25,25,25);
+    width: 100%;
+    color: white;
+}
+.summary p {
+    font-family: 'Roboto Mono', monospace;
+    width: 50%;
+    left: 0;
+}
+.summary ul {
+    width: 50%;
 }
