@@ -66,7 +66,7 @@ body {
     font-size: 1.5em;
 }
 .projects {
-    background-color: #555;
+    background-color: rgb(25,25,25);
     width: auto;
     display: grid;
     justify-content: center;
@@ -78,6 +78,7 @@ body {
     background-color: white;
     margin: 10%;
     text-align: center;
+    text-decoration: none;
 }
 .projects a {
     border: 10px black;
@@ -86,7 +87,7 @@ body {
     width: 100%;
     margin: auto;
     margin-top: 1%;
-    padding: 10%;
+    padding: 5%;
     text-align: center;
 }
 footer {
@@ -94,7 +95,7 @@ footer {
     right: 0;
 }
 .contactme {
-    background-color: #555;
+    background-color: rgb(25,25,25);
     padding: 5%;
 }
 .contact-links ul {
@@ -145,4 +146,7 @@ footer {
 @keyframes blinkTextCursor{
   from{border-right-color: rgba(255,255,255,.75);}
   to{border-right-color: transparent;}
+}
+.about-header {
+    font-size: 2.5em;
 }
