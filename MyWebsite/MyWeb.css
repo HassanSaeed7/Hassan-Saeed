@@ -58,7 +58,6 @@ body {
     background-color: rgb(25,25,25);
     padding: 25%;
     color: white;
-    font-size: 1.5em;
 }
 .projects {
     background-color: rgb(25,25,25);
@@ -198,7 +197,6 @@ body {
     opacity: 1;
     color: #fff;
   }
-  
   .btn.rotate::after {
     transform: translateY(-50%) rotateX(90deg);
     background: #b9f;
@@ -207,31 +205,26 @@ body {
     opacity: 0;
     color: #111;
   }
-  
   .btn.rotate:hover::after {
     transform: translateY(0) rotateX(0);
     opacity: 1;
   }
-  
   .btn.rotate:hover::before {
     transform: translateY(50%) rotateX(90deg);
     opacity: 0;
   }
-
-
-
 .contact-label {
     color: white;
     text-align: center;
     font-size: 3em;
 }
 .line-1{ /*This is for the typewriter effect */
-    position: relative;
-    top: 50%;  
+    /*position: relative;
+    top: 50%;  */
     width: 24em;
     margin: 0 auto;
     border-right: 2px solid rgba(255,255,255,.75);
-    font-size: 300%;
+    font-size: 4em;
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
@@ -241,12 +234,12 @@ body {
 
 /* Animation */ /* This needs to be fixed on small screen/responsive*/
 .anim-typewriter{
-  animation: typewriter 4s steps(34) 1s 1 normal both,
+  animation: typewriter 4s steps(44) 1s 1 normal both,
              blinkTextCursor 500ms steps(44) infinite normal;
 }
 @keyframes typewriter{
   from{width: 0;}
-  to{width: 15em;}
+  to{width: 16em;}
 }
 @keyframes blinkTextCursor{
   from{border-right-color: rgba(255,255,255,.75);}
