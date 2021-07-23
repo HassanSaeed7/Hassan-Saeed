@@ -1,4 +1,4 @@
-let text = "I am Hassan Saeed.";
+let text = "Hello, I am Hassan Saeed.";
 let i = 0;
 setInterval(function() {
     let cursor = (i%4==0 || i%3==0 ? "_" : "&nbsp;")
