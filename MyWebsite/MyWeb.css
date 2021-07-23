@@ -1,6 +1,6 @@
-* {
+*, *::after, *::before {
     box-sizing: border-box;
-}
+  }
 body {
     margin: 0;
     padding: 0;
@@ -75,7 +75,7 @@ body {
     padding: 5%;
 }
 .projects-links {
-    background-color: lightgrey;
+    background-color: white;
     margin: 10%;
     text-align: center;
 }
@@ -120,9 +120,9 @@ footer {
     padding-bottom: 5%;
 }
 
-.line-1{
-    position: relative;
-    top: 50%;  
+.line-1{ /*This is for the typewriter effect */
+    /* position: relative;
+    top: 50%; */ 
     width: 24em;
     margin: 0 auto;
     border-right: 2px solid rgba(255,255,255,.75);
@@ -133,7 +133,7 @@ footer {
     transform: translateY(-50%);    
 }
 
-/* Animation */
+/* Animation */ /* This needs to be fixed on small screen/responsive*/
 .anim-typewriter{
   animation: typewriter 4s steps(34) 1s 1 normal both,
              blinkTextCursor 500ms steps(44) infinite normal;
