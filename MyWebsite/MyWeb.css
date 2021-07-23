@@ -255,3 +255,7 @@ body {
 .subhead {
     font-family: 'Tourney', cursive;
 }
+.copyright {
+    position: absolute;
+    right: 1px;
+}
