@@ -275,3 +275,6 @@ body {
   margin-right: 0;
   
 }
+.projects h2 {
+    line-height: 1;
+}
