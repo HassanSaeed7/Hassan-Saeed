@@ -65,7 +65,7 @@ body {
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: repeat(4, 1fr);
     width: 100vw;
-    height: 100vh;
+    height: 80vh;
     column-gap: 5%;
     row-gap: 5%;
     padding-top: 2%;
@@ -257,8 +257,8 @@ body {
 }
 .project-title {
     text-align: center;
-    color: white;   
-    font-size: 3em;
+    font-size: 2em;
+    color: white;
 }
 .subhead {
     font-family: 'Tourney', cursive;
@@ -277,4 +277,5 @@ body {
 }
 .projects h2 {
     line-height: 1;
+    margin-top: 0;
 }
