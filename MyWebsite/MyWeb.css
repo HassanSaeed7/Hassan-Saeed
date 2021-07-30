@@ -48,7 +48,7 @@ body {
 .navbar-links a {
     color: white;
     text-decoration: none;
-    padding: 3em;
+    padding: 2em;
 }
 .navbar-links a:hover {
     background-color: rgb(25,25,25);
@@ -83,7 +83,6 @@ body {
       grid-row: 1;
     }
   }
-  
 .grid-2 {
     grid-column-start: 3;
     grid-column-end: 4;
@@ -94,7 +93,6 @@ body {
       grid-row: 2;
     }
   }
-  
 .grid-3 {
     grid-column-start: 2;
     grid-column-end: 3;
@@ -104,8 +102,7 @@ body {
       grid-column-end: 5;
       grid-row: 4;
     }
-  }
-  
+  } 
 .grid-4 {
     grid-column-start: 3;
     grid-column-end: 4;
@@ -116,11 +113,9 @@ body {
       grid-row: 4;
     }
   }
-  
 .callout {
     margin: 0;
   }
-  
 .projects-links {
     text-align: center;
     text-decoration: none;
