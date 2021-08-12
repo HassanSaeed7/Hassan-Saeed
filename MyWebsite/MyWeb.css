@@ -40,7 +40,10 @@ body {
 .navbar-links a:hover {
     background-color: rgb(25,25,25);
 }
-
+#projects {
+    height: 100vh;
+    margin: 10% 0 10% 0;
+}
 .projects {
     height: 100vh;
     display: grid;
@@ -137,28 +140,52 @@ body {
     box-shadow: 0 15px 7px -7px rgb(99, 90, 90);
     transform: translateY(-8px)
   }
+#about {
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    width: 100%;
+    margin-left: 2%;
+}
 .about {
-    height: 80vh;
-    width: 40vw;
-    text-align: center;
+    width: 45vw;
+    height: 90vh;
+    display: flex;
     justify-content: center;
-    max-width: 1200px;
-    margin-left: 5%;
-    padding-top: 5%;
-    background-color: white;
+    align-content: center;
+    text-align: center;
+    background-color: rgb(128, 43, 43);
     border-radius: 50%;
-    color: black;
-    
+    color: white;
 }
 .summary {
     width: 60%;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
 }
 .about-header {
-    font-size: 3em;
+    font-size: 2em;
+}
+.techcontainer {
+    width: 45vw;
+    height: 90vh;
+    text-align: center;
+    background-color: rgb(128, 43, 43);
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.techstack h2 {
+    font-size: 2em;
 }
 .contactme {
-    padding: 3%;
+    padding: 10%;
     justify-content: center;
     width: 100%;
 }
@@ -279,23 +306,4 @@ body {
 .projects h2 {
     line-height: 1;
     margin-top: 0;
-}
-.techcontainer {
-    height: 80vh;
-    width: 40vw;
-    text-align: center;
-    justify-content: center;
-    max-width: 1200px;
-    margin-right: 5%;
-    padding-top: 5%;
-    background-color: white;
-    border-radius: 50%;
-    color: black;
-}
-.techstack h2 {
-    font-size: 3em;
-}
-.techstack li {
-    text-align: center;
-    list-style: none;
 }
