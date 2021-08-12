@@ -273,4 +273,10 @@ body {
     justify-content: center;
     align-content: center;
 }
-.techstack
+.techstack h2 {
+    font-size: 3em;
+}
+.techstack li {
+    text-align: center;
+    list-style: none;
+}
