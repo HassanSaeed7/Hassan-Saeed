@@ -144,7 +144,15 @@ body {
     display: inline-grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
-    margin-left: 2%;
+    margin-left: 3%;
+}
+@media (max-width: 900px) {
+    #about {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 .about {
     width: 45vw;
