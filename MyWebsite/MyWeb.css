@@ -4,12 +4,17 @@
 body {
     margin: 0;
     padding: 0;
+    padding-top: 65px;
 }
 .nav-bar {
     background-color: rgb(128, 43, 43);
     display: flex;
     justify-content: space-between;
     align-items: center; 
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 65px;
 }
 .title {
     color: white;
