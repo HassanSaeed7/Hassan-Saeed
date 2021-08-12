@@ -5,6 +5,8 @@ body {
     margin: 0;
     padding: 0;
     padding-top: 65px;
+    background: rgb(25,25,25); 
+    color: white;
 }
 .nav-bar {
     background-color: rgb(128, 43, 43);
@@ -40,7 +42,7 @@ body {
 }
 
 .projects {
-    background-color: rgb(25,25,25);
+    height: 100vh;
     display: grid;
     grid-template-rows: repeat(1, 1fr);
     grid-template-columns: repeat(4, 1fr);
@@ -91,14 +93,11 @@ body {
       grid-row: 4;
     }
   }
-.callout {
-    margin: 0;
-  }
   .project-title {
     text-align: center;
     font-size: 3em;
     color: white;
-    padding-top: 2%;
+    margin-top: 15%;
     grid-column-start: 2;
     grid-column-end: 4;
     grid-row: 1;
@@ -139,15 +138,26 @@ body {
     transform: translateY(-8px)
   }
 .about {
-    width: 50%;
-    height: 100vh;
+    height: 80vh;
+    width: 40vw;
     text-align: center;
     justify-content: center;
     max-width: 1200px;
+    margin-left: 5%;
+    padding-top: 5%;
+    background-color: white;
+    border-radius: 50%;
+    color: black;
+    
+}
+.summary {
+    width: 60%;
     margin: 0 auto;
 }
+.about-header {
+    font-size: 3em;
+}
 .contactme {
-    background-color: rgb(25,25,25);
     padding: 3%;
     justify-content: center;
     width: 100%;
@@ -207,7 +217,6 @@ body {
 }
 .Intro {
     text-align: center;
-    background-color: rgb(25,25,25);
     height: 100vh;
     width: 100%;
     color: white;
@@ -241,19 +250,17 @@ body {
 }
 .subhead {
     opacity: 0;
-    transform: translateY(3em);
+    transform: translateY(3rem);
     animation: FadeInUp 2s ease 5s forwards;
     font-size: clamp(1em);
 }
 @keyframes FadeInUp {
     to {
         opacity: 1;
-        transform: translateY(1500%);
+        transform: translateY(1300%);
     }
 }
-.about-header {
-    font-size: 3em;
-}
+
 
 .subhead {
     font-family: 'Tourney', cursive;
@@ -261,7 +268,6 @@ body {
 .copyright {
     display: flex;
     justify-content: flex-end;
-    background-color: rgb(25,25,25);
     width: 100%;
     color: white;
 }
@@ -275,10 +281,16 @@ body {
     margin-top: 0;
 }
 .techcontainer {
-    height: 60vh;
-    display: flex;
+    height: 80vh;
+    width: 40vw;
+    text-align: center;
     justify-content: center;
-    align-items: center;
+    max-width: 1200px;
+    margin-right: 5%;
+    padding-top: 5%;
+    background-color: white;
+    border-radius: 50%;
+    color: black;
 }
 .techstack h2 {
     font-size: 3em;
