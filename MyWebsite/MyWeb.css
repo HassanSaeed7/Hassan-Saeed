@@ -111,8 +111,8 @@ body {
     font-size: 3em;
     color: white;
     margin-top: 15%;
-    grid-column-start: 2;
-    grid-column-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 5;
     grid-row: 1;
 }
 .projects-links {
