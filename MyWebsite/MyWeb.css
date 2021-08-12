@@ -108,7 +108,7 @@ body {
   }
 .project-title {
     text-align: center;
-    font-size: 3em;
+    font-size: 2em;
     color: white;
     margin-top: 15%;
     grid-column-start: 3;
@@ -213,6 +213,13 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+.contact-label {
+    color: white;
+    text-align: center;
+    font-size: 3em;
+    border-top: white solid 1px;
+    padding-top: 5%;
 }
 .contactme {
     padding: 10%;
@@ -333,4 +340,6 @@ body {
 .projects h2 {
     line-height: 1;
     margin-top: 0;
+    border-top: white solid 1px;
+    padding-top: 5%;
 }
