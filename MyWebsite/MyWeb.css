@@ -177,7 +177,6 @@ body {
     text-align: center;
     cursor: pointer;
   }
-  
   .btn.rotate::before {
     transform: translateY(0) rotateX(0deg);
     background: rgb(128, 43, 43);
@@ -207,7 +206,7 @@ body {
     text-align: center;
     font-size: 3em;
 }
-.line-1{ /*This is for the typewriter effect */
+.line-1{ /* typewriter effect */
     position: relative;
     top: 50%;
     width: 24em;
@@ -221,7 +220,7 @@ body {
     font-family: 'Tourney', cursive;   
 }
 
-/* Animation */
+/* Typewriter Animation */
 .anim-typewriter{
   animation: typewriter 4s steps(29) 1s 1 normal both,
              blinkTextCursor 500ms steps(29) infinite normal;
@@ -263,4 +262,14 @@ body {
 .projects h2 {
     line-height: 1;
     margin-top: 0;
+}
+.techcontainer {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.techstack {
+    justify-content: center;
+    align-content: center;
 }
