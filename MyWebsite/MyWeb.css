@@ -175,6 +175,7 @@ body {
     transition: 0.3s;
     padding-top: inherit;
     text-align: center;
+    cursor: pointer;
   }
   
   .btn.rotate::before {
