@@ -44,6 +44,12 @@ body {
     height: 100vh;
     margin: 10% 0 10% 0;
 }
+@media (max-width: 900px) {
+    #projects,
+    #contact {
+        margin: 30% 0 30% 0;
+    }
+}
 .projects {
     height: 100vh;
     display: grid;
@@ -66,7 +72,7 @@ body {
 @media screen and (max-width: 60em) {
     .grid-1 {
       grid-column-start: 1;
-      grid-column-end: 5;
+      grid-column-end: 6;
       grid-row: 1;
     }
   }
@@ -77,8 +83,8 @@ body {
 }
 @media screen and (max-width: 60em) {
     .grid-2 {
-        grid-column-start: 1;
-      grid-column-end: 5;
+      grid-column-start: 1;
+      grid-column-end: 6;
       grid-row: 2;
     }
   }
@@ -90,7 +96,7 @@ body {
 @media screen and (max-width: 60em) {
     .grid-3 {
       grid-column-start: 1;
-      grid-column-end: 5;
+      grid-column-end: 6;
       grid-row: 4;
     }
   } 
@@ -102,7 +108,7 @@ body {
 @media screen and (max-width: 60em) {
     .grid-4 {
       grid-column-start: 1;
-      grid-column-end: 5;
+      grid-column-end: 6;
       grid-row: 4;
     }
   }
