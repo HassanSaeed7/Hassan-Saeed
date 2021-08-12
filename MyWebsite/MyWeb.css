@@ -32,18 +32,13 @@ body {
 .navbar-links a {
     color: white;
     text-decoration: none;
-    padding: 2em;
+    padding: 30px;
+    font-size: 1.5em;
 }
 .navbar-links a:hover {
     background-color: rgb(25,25,25);
 }
-.Intro {
-    text-align: center;
-    background-color: rgb(25,25,25);
-    padding: 25%;
-    color: white;
-    width: 100vw;
-}
+
 .projects {
     background-color: rgb(25,25,25);
     display: grid;
@@ -149,7 +144,7 @@ body {
     padding: 3%;
     height: 100vh;
     justify-content: center;
-    width: 100vw;
+    width: 100%;
 }
 .contact-links {
     display: flex;
@@ -206,18 +201,25 @@ body {
     text-align: center;
     font-size: 3em;
 }
-.line-1{ /* typewriter effect */
+.Intro {
+    text-align: center;
+    background-color: rgb(25,25,25);
+    height: 100vh;
+    width: 100%;
+    color: white;
+}
+.line-1{ /* typewriter */
     position: relative;
     top: 50%;
-    width: 24em;
+    width: max-content;
     margin: 0 auto;
     border-right: 2px solid rgba(255,255,255,.75);
-    font-size: 4em;
+    font-size: clamp(1rem, 3vw + 1rem, 4rem);
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
     transform: translateY(-50%); 
-    font-family: 'Tourney', cursive;   
+    font-family: tourney; 
 }
 
 /* Typewriter Animation */
@@ -232,6 +234,18 @@ body {
 @keyframes blinkTextCursor{
   from{border-right-color: rgba(255,255,255,.75);}
   to{border-right-color: transparent;}
+}
+.subhead {
+    opacity: 0;
+    transform: translateY(30em);
+    animation: FadeInUp 2s ease 5s forwards;
+    font-size: clamp(1em);
+}
+@keyframes FadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(1500%);
+    }
 }
 .about-header {
     font-size: 3em;
