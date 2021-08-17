@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap");
 *, *::after, *::before {
     box-sizing: border-box;
   }
@@ -7,6 +8,7 @@ body {
     padding-top: 65px;
     background: rgb(25,25,25); 
     color: white;
+    font-family: "Montserrat", sans-serif;
 }
 .nav-bar {
     background-color: rgb(128, 43, 43);
@@ -20,8 +22,8 @@ body {
 }
 .title {
     color: white;
-    font-size: 1.5em;
-    margin-left: 1%;
+    font-size: 2em;
+    margin-left: 15px;
 }
 .navbar-links ul {
     margin: 0;
