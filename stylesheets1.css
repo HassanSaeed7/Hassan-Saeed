@@ -11,9 +11,7 @@ body {
 .container {
     display: flex;
 }
-.resume-left {
-    background-color: #151516;
-}
+
 .resume-right {
     background-color: #090A0A;
 }
@@ -31,4 +29,8 @@ body {
 }
 .resume-img {
     width: 100%;
+}
+.left-section {
+    background-color: #151617;
+    padding: 30% 0;
 }
