@@ -9,6 +9,27 @@ body {
     text-align: center;
 }
 .resume-section {
+    padding: 5%;
+    margin: 0 auto;
+}
+.container {
+    display: flex;
+}
+.container h2 {
+    color: red;
+    text-decoration: underline;
+}
+.container h1 {
+    font-size: 3em;
+}
+.col2 {
+    background-color: wheat;
+    color: black;
+}
+.container p {
     width: 80vw;
     margin: 0 auto;
+}
+.resume-img {
+    width: 10%;
 }
