@@ -15,7 +15,7 @@ body {
     margin: 65px auto 0px;
 }
 .resume-left {
-    width: 35vw;
+    width: 70vw;
 }
 .resume-right {
     background-color: #090A0A;
@@ -29,25 +29,60 @@ body {
 .resume-img {
     width: 100%;
 }
-.left-section {
-    background-color: #151617;
-    padding: 30% 0;
-}
+
 .work-experience li {
     list-style: none;
     padding: 1%;
     margin: 0 auto;
-    width: 90%;
+    text-align: left;
+
 }
 .date {
     padding: 1%;
 }
 .resume-section {
-    margin: 5% auto 5% auto;
+    margin: 5% auto;
+    padding-bottom: 5%;
     width: 80%;
+    border-bottom: 2px solid #b1eaff;
+}
+.resume-section:last-child {
+    border-bottom: 0px;
 }
 .title {
-    text-decoration: underline;
     font-size: 2em;
     margin-bottom: 2%;
+    font-weight: 700;
+    text-transform: uppercase;
 }
+
+
+.resume_work ul {
+padding-left: 40px;
+overflow: hidden;
+}
+
+.resume_work ul li .info {
+    margin-bottom: 20px;
+  }
+.resume_work ul li {
+    position: relative;
+}
+.date:before {
+    content: "";
+    position: absolute;
+    left: -26px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid white;
+    background-color: white;
+  }
+.date:after {
+    content: "";
+    position: absolute;
+    left: -20px;
+    width: 2px;
+    height:100%;
+    background: white;
+  }
