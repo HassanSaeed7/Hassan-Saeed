@@ -107,6 +107,7 @@ overflow: hidden;
 }
 .resume-contact ul {
     list-style: none;
+    padding: 5%;
 }
 .resume-contact li a {
     color: white;
