@@ -111,6 +111,10 @@ overflow: hidden;
 }
 .resume-contact li a {
     color: white;
+    text-decoration: none;
+}
+.resume-contact li a:hover {
+    text-decoration: underline;
 }
 .resume-intro,
 .resume-contact,
