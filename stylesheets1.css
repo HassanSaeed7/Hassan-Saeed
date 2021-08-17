@@ -14,9 +14,7 @@ body {
     display: flex;
     margin: 65px auto 0px;
 }
-.resume-left {
-    width: 70vw;
-}
+
 .resume-right {
     background-color: #090A0A;
 }
@@ -86,3 +84,30 @@ overflow: hidden;
     height:100%;
     background: white;
   }
+
+.resume_skills .skills_list{
+	display: flex;
+	justify-content: space-between;
+    margin-bottom: 15px;
+    padding: 5%;
+}
+.resume_skills .skills_list .skills_bar p{
+	position: relative;
+	width: 125px;
+    height: 20px;
+    background: #fff;
+}
+.resume_skills .skills_list .skills_bar p span{	
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #0175b2;
+	width: 100%;
+	height: 100%;
+}
+.resume-contact ul {
+    list-style: none;
+}
+.resume-contact li a {
+    color: white;
+}
