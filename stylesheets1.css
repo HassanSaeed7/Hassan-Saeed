@@ -30,10 +30,9 @@ body {
 
 .work-experience li {
     list-style: none;
-    padding: 1%;
+    padding: 2%;
     margin: 0 auto;
     text-align: left;
-
 }
 .date {
     padding: 1%;
@@ -88,13 +87,12 @@ overflow: hidden;
 .resume_skills .skills_list{
 	display: flex;
 	justify-content: space-between;
-    margin-bottom: 15px;
-    padding: 5%;
+    margin-bottom: 15%;
 }
 .resume_skills .skills_list .skills_bar p{
 	position: relative;
 	width: 125px;
-    height: 20px;
+    height: 15px;
     background: #fff;
 }
 .resume_skills .skills_list .skills_bar p span{	
@@ -109,6 +107,9 @@ overflow: hidden;
     list-style: none;
     padding: 5%;
 }
+.resume-contact li {
+    padding: 5%;
+}
 .resume-contact li a {
     color: white;
     text-decoration: none;
@@ -119,8 +120,11 @@ overflow: hidden;
 .resume-intro,
 .resume-contact,
 .resume-3rd {
-    padding: 20% 0 20% 0;
+    padding: 20% 0;
     border-bottom: 2px solid white;
     width: 80%;
     margin: 0 auto;
+}
+.resume-3rd {
+    border-bottom: 0px;
 }
