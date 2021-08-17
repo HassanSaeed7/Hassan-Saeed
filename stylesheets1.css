@@ -1,17 +1,21 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap");
 *, *::after, *::before {
     box-sizing: border-box;
-  }
+}
 body {
     margin: 0;
     padding: 0;
     background-color: rgb(25, 25, 25);
     color: white;
     text-align: center;
+    font-family: "Montserrat", sans-serif;
 }
 .container {
     display: flex;
 }
-
+.resume-left {
+    width: 35vw;
+}
 .resume-right {
     background-color: #090A0A;
 }
@@ -19,7 +23,6 @@ body {
     font-size: 3em;
 }
 .container p {
-    width: 80vw;
     margin: 0 auto;
 }
 .resume-img {
@@ -28,4 +31,13 @@ body {
 .left-section {
     background-color: #151617;
     padding: 30% 0;
+}
+.work-experience {
+    list-style: none;
+}
+.resume-section {
+    border-bottom: 1px solid white;
+}
+.resume-right:last-child:after {
+    border-style: none;
 }
