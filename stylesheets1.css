@@ -12,6 +12,7 @@ body {
 }
 .container {
     display: flex;
+    margin: 65px auto 0px;
 }
 .resume-left {
     width: 35vw;
@@ -32,12 +33,15 @@ body {
     background-color: #151617;
     padding: 30% 0;
 }
-.work-experience {
+.work-experience li {
     list-style: none;
+    padding: 1%;
+    margin: 0 auto;
+}
+.date {
+    padding: 1%;
 }
 .resume-section {
     border-bottom: 1px solid white;
-}
-.resume-right:last-child:after {
-    border-style: none;
+    margin: 5% auto 5% auto;
 }
