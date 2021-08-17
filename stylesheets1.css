@@ -37,11 +37,17 @@ body {
     list-style: none;
     padding: 1%;
     margin: 0 auto;
+    width: 90%;
 }
 .date {
     padding: 1%;
 }
 .resume-section {
-    border-bottom: 1px solid white;
     margin: 5% auto 5% auto;
+    width: 80%;
+}
+.title {
+    text-decoration: underline;
+    font-size: 2em;
+    margin-bottom: 2%;
 }
