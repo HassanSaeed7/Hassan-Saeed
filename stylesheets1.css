@@ -112,3 +112,11 @@ overflow: hidden;
 .resume-contact li a {
     color: white;
 }
+.resume-intro,
+.resume-contact,
+.resume-3rd {
+    padding: 20% 0 20% 0;
+    border-bottom: 2px solid white;
+    width: 80%;
+    margin: 0 auto;
+}
