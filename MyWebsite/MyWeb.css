@@ -11,7 +11,7 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 .nav-bar {
-    background-color: rgb(128, 43, 43);
+    background-color: rgb(212, 30, 30);
     display: flex;
     justify-content: space-between;
     align-items: center; 
@@ -195,7 +195,6 @@ body {
     height: 90vh;
     text-align: center;
     background-color: rgb(212, 30, 30);
-    
     color: white;
     display: flex;
     justify-content: center;
@@ -252,7 +251,7 @@ body {
 }
 .btn.rotate::before {
     transform: translateY(0) rotateX(0deg);
-    background: rgb(128, 43, 43);
+    background: rgb(212, 30, 30);
     transform-origin: bottom bottom;
     content: attr(data-before);
     opacity: 1;
