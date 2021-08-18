@@ -228,9 +228,10 @@ body {
     font-size: 3em;
     border-top: white solid 1px;
     padding-top: 5%;
+
 }
 .contactme {
-    padding: 10%;
+    padding: 5%;
     justify-content: center;
     width: 100%;
 }
