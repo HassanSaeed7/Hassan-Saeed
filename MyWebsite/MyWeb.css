@@ -172,7 +172,6 @@ body {
 }
 .about { /* Need to make this responsive. The text overflows when the screen shrinks, forcing the text outside of the container */
     width: 100%;
-    height: 90vh;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -192,10 +191,10 @@ body {
 }
 .about-header {
     font-size: 2em;
+    margin-top: 0;
 }
 .techcontainer {
     width: 100%;
-    height: 90vh;
     text-align: center;
     background-color: rgb(212, 30, 30);
     color: white;
@@ -205,6 +204,7 @@ body {
 }
 .techstack h2 {
     font-size: 2em;
+    margin-top: 0;
 }
 .techstack li {
     list-style: none;
@@ -335,5 +335,5 @@ body {
     color: white;
 }
 .fab {
-    padding: 3%;
+    padding: 5%;
 }
