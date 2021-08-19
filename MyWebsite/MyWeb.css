@@ -119,6 +119,7 @@ body {
     grid-column-start: 3;
     grid-column-end: 5;
     grid-row: 1;
+    padding-top: 5%;
 }
 .projects-links {
     text-align: center;
@@ -337,12 +338,6 @@ body {
   margin-left: auto;
   margin-right: 0;
   
-}
-.projects h2 {
-    line-height: 1;
-    margin-top: 0;
-    border-top: white solid 1px;
-    padding-top: 5%;
 }
 .fab {
     padding: 3%;
