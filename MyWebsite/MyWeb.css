@@ -177,7 +177,6 @@ body {
     align-content: center;
     text-align: center;
     background-color: rgb(128, 43, 43);
-    
     color: white;
 }
 .summary {
@@ -191,7 +190,6 @@ body {
 }
 .about-header {
     font-size: 2em;
-    margin-top: 0;
 }
 .techcontainer {
     width: 100%;
@@ -204,7 +202,6 @@ body {
 }
 .techstack h2 {
     font-size: 2em;
-    margin-top: 0;
 }
 .techstack li {
     list-style: none;
