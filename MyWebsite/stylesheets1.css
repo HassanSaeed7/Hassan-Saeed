@@ -166,3 +166,6 @@ overflow: hidden;
 .navbar-links a:hover {
     background-color: rgb(25,25,25);
 }
+.info li {
+    list-style: white;
+}
