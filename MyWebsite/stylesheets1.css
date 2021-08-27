@@ -166,6 +166,9 @@ overflow: hidden;
 .navbar-links a:hover {
     background-color: rgb(25,25,25);
 }
+.resume-left {
+    width: 30%;
+}
 .info li {
     list-style: white;
 }
