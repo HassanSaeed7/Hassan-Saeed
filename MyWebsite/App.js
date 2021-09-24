@@ -4,8 +4,12 @@ function App() {
     return (
         <div>
         <Nav />
-
-
+        <FrontPage />
+        <Summary />
+        <Projects />
+        <Button />
+        <Contact />
+        <Footer />
         </div>
     )
 }
