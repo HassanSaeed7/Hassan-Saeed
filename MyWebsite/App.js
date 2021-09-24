@@ -1,8 +1,12 @@
 import React from "react"
 
 function App() {
+    const projects = Projects.map(items => <Projects key={id} value={items} />)
+    
+    
     return (
         <div>
+
         <Nav />
         <FrontPage />
         <Summary />
@@ -10,6 +14,7 @@ function App() {
         <Button />
         <Contact />
         <Footer />
+
         </div>
     )
 }
