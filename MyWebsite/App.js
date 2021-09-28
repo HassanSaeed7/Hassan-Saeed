@@ -1,6 +1,10 @@
-import React from "react"
+import React, {Component} from "react"
 
-function App() {
+class App extends Component {
+    constructor
+
+
+    render() {
     const projects = Projects.map(items => <Projects key={id} data={items} />)
     const contacts = Contact.map(items => <Contact key={id} data={items} />)
     
@@ -17,6 +21,7 @@ function App() {
 
         </div>
     )
+    }
 }
 
 export default App
