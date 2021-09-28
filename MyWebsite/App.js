@@ -1,7 +1,12 @@
 import React, {Component} from "react"
 
 class App extends Component {
-    constructor
+    constructor() {
+        super()
+        this.state = {
+            Projects: ["E-Commerce", "Leads Tracker", "Movie Search Engine", "Blackjack"]
+        }
+    }
 
 
     render() {
