@@ -39,7 +39,6 @@ body {
     color: white;
     text-decoration: none;
     margin-left: 20px;
-    font-size: 1.5em;
 }
 .navbar-links a:hover {
     text-decoration: underline;
@@ -66,7 +65,7 @@ body {
 /* Typewriter Animation */
 .anim-typewriter{
   animation: typewriter 3.5s steps(35) 1s 1 normal both,
-             blinkTextCursor 850ms steps(35) infinite normal;
+             blinkTextCursor 1000ms steps(35) infinite normal;
 }
 @keyframes typewriter{
   from{width: 0;}
