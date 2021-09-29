@@ -169,3 +169,7 @@ overflow: hidden;
 .info li {
     list-style: white;
 }
+.logos {
+    display: flex;
+    flex-direction: column;
+}
