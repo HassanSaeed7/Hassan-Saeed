@@ -44,7 +44,112 @@ body {
 .navbar-links a:hover {
     text-decoration: underline;
 }
+/*Front Page*/
+.Intro {
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+}
+.line-1{ /* typewriter effect */
+    position: relative;
+    top: 40%;
+    width: max-content;
+    margin: 0 auto;
+    border-right: 3px solid rgba(255,255,255,.75);
+    font-size: clamp(2rem, 3vw + 1rem, 4rem);
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%); 
+    font-family: tourney; 
+}
+/* Typewriter Animation */
+.anim-typewriter{
+  animation: typewriter 3.5s steps(35) 1s 1 normal both,
+             blinkTextCursor 850ms steps(35) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 13.5em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+.subhead {
+    opacity: 0;
+    transform: translateY(3rem);
+    animation: FadeInUp 2s ease 5s forwards;
+    font-size: clamp(1em);
+}
+@keyframes FadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(1300%);
+    }
+}
+.subhead {
+    font-family: 'Tourney', cursive;
+}
 /* About Section */
+#about {
+    display: inline-flex;
+    min-width: 100%;
+    
+}
+@media (max-width: 900px) {
+    #about {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}
+.about {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    background-color: rgb(128, 43, 43);
+    color: white;
+}
+.summary {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.about-header {
+    font-size: 2em;
+}
+.techcontainer {
+    width: 100%;
+    text-align: center;
+    background-color: rgb(212, 30, 30);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.techstack h2 {
+    font-size: 2em;
+}
+.techstack li {
+    list-style: none;
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Project Section */
 @media (max-width: 900px) {
     #projects,
     #contact {
@@ -155,68 +260,14 @@ body {
     box-shadow: 0 15px 7px -7px rgb(99, 90, 90);
     transform: translateY(-8px)
   }
-#about {
-    display: inline-flex;
-    min-width: 100%;
-    
-}
-@media (max-width: 900px) {
-    #about {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-    }
-}
-.about {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    text-align: center;
-    background-color: rgb(128, 43, 43);
-    color: white;
-}
-.summary {
-    width: 90%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    flex-direction: column;
-}
-.about-header {
-    font-size: 2em;
-}
-.techcontainer {
-    width: 100%;
-    text-align: center;
-    background-color: rgb(212, 30, 30);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.techstack h2 {
-    font-size: 2em;
-}
-.techstack li {
-    list-style: none;
-    width: 60%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
+
 .contact-label {
     color: white;
     text-align: center;
     font-size: 3em;
     padding-top: 5%;
 }
+/*Contact Section*/
 .contactme {
     margin: 0 auto;
 }
@@ -277,52 +328,6 @@ body {
     color: white;
     text-align: center;
     font-size: 3em;
-}
-.Intro {
-    text-align: center;
-    height: 100vh;
-    width: 100%;
-}
-.line-1{ /* typewriter */
-    position: relative;
-    top: 40%;
-    width: max-content;
-    margin: 0 auto;
-    border-right: 3px solid rgba(255,255,255,.75);
-    font-size: clamp(2rem, 3vw + 1rem, 4rem);
-    text-align: center;
-    white-space: nowrap;
-    overflow: hidden;
-    transform: translateY(-50%); 
-    font-family: tourney; 
-}
-/* Typewriter Animation */
-.anim-typewriter{
-  animation: typewriter 3.5s steps(35) 1s 1 normal both,
-             blinkTextCursor 850ms steps(35) infinite normal;
-}
-@keyframes typewriter{
-  from{width: 0;}
-  to{width: 13.5em;}
-}
-@keyframes blinkTextCursor{
-  from{border-right-color: rgba(255,255,255,.75);}
-  to{border-right-color: transparent;}
-}
-.subhead {
-    opacity: 0;
-    transform: translateY(3rem);
-    animation: FadeInUp 2s ease 5s forwards;
-    font-size: clamp(1em);
-}
-@keyframes FadeInUp {
-    to {
-        opacity: 1;
-        transform: translateY(1300%);
-    }
-}
-.subhead {
-    font-family: 'Tourney', cursive;
 }
 .copyright {
     display: flex;
