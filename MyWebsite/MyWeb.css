@@ -49,46 +49,40 @@ body {
     height: 100vh;
     width: 100%;
 }
-.line-1{ /* typewriter effect */
+.headline{
+    font-family: "Tourney", cursive; 
     position: relative;
     top: 40%;
     width: max-content;
     margin: 0 auto;
-    border-right: 3px solid rgba(255,255,255,.75);
-    font-size: clamp(2rem, 3vw + 1rem, 4rem);
+    font-size: clamp(4rem, 3vw + 1rem, 5rem);
     text-align: center;
     white-space: nowrap;
-    overflow: hidden;
-    transform: translateY(-50%);
+    padding: 1%;
 }
-/* Typewriter Animation */
-.anim-typewriter{
-  animation: typewriter 3.5s steps(35) 1s 1 normal both,
-             blinkTextCursor 1000ms steps(35) infinite normal;
+.headline::before {
+    content: "";
+    border: 3px solid white;
+    position: absolute;
+    width: calc(100% - 6px);
+    height: calc(100% - 6px);
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transform: translate(5px, 5px);
 }
-@keyframes typewriter{
-  from{width: 0;}
-  to{width: 13.5em;}
+.headline::after {
+    content: "";
+    border: 3px solid white;
+    position: absolute;
+    width: calc(100% - 6px);
+    height: calc(100% - 6px);
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transform: translate(-5px, -5px);
 }
-@keyframes blinkTextCursor{
-  from{border-right-color: rgba(255,255,255,.75);}
-  to{border-right-color: transparent;}
-}
-.subhead {
-    opacity: 0;
-    transform: translateY(3rem);
-    animation: FadeInUp 2s ease 5s forwards;
-    font-size: clamp(1em);
-}
-@keyframes FadeInUp {
-    to {
-        opacity: 1;
-        transform: translateY(1300%);
-    }
-}
-.subhead {
-    font-family: 'Tourney', cursive;
-}
+
 /* About Section */
 #about {
     display: inline-flex;
@@ -111,7 +105,7 @@ body {
     justify-content: center;
     align-content: center;
     text-align: center;
-    background-color: rgb(212, 30, 30);
+    
     color: white;
 }
 .summary {
@@ -123,19 +117,14 @@ body {
     text-align: center;
     flex-direction: column;
 }
-.about-header {
-    font-size: 2em;
-}
 .techcontainer {
     width: 100%;
     text-align: center;
-    background-color: rgb(212, 30, 30);
+    background-color: white;
+    color: black;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.techstack h2 {
-    font-size: 2em;
 }
 .techstack li {
     list-style: none;
@@ -146,7 +135,6 @@ body {
     align-items: center;
     text-align: center;
 }
-
 /* Project Section */
 @media (max-width: 900px) {
     #projects,
@@ -217,7 +205,8 @@ body {
     }
   } */
 .project-title,
-.contact-title {
+.contact-title,
+.about-title {
     text-align: center;
     font-size: 5em;
     font-family: 'Tourney', cursive;
@@ -225,7 +214,8 @@ body {
 }
 @media screen and (max-width: 900) {
     .project-title,
-    .contact-title {
+    .contact-title,
+    .about-title {
         text-align: center;
         font-size: 3em;
         font-family: 'Tourney', cursive;
@@ -239,7 +229,7 @@ body {
     color: black;
     padding: 5%;
     margin: 2%;
-    background: rgba(255, 252, 252, 0.733);
+    background: white;
     text-transform: uppercase;
     letter-spacing: 0.1em;
     line-height: 100%;
@@ -249,7 +239,6 @@ body {
     width: 25%;
     height: auto;
 }
-
 
 
 /*Contact Section*/
