@@ -293,6 +293,13 @@ footer {
   width: 100%;
   margin: 2% auto;
 }
+.project-left-section p,
+.project-right-section p {
+  padding: 0 0.5em;
+  font-size: 1.1rem;
+  text-align: start;
+  line-height: 1.25;
+}
 }
 .title1 {
   font-size: clamp(1rem, 3vw, 2.5rem);
