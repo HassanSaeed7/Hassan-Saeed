@@ -155,11 +155,18 @@ footer {
   clip-path: polygon(0 2vw, 100% 0, 100% calc(100% - 2vw), 0 100%);
 }
 .about-me {
-  width: 85%;
+  width: 95%;
   text-align: justify;
   font-size: 1.3rem;
   margin: auto;
   line-height: 1.5;
+}
+@media screen and (max-width: 1024px) {
+  .about-me {
+    text-align: start;
+    font-size: 1rem;
+    width: 100%
+  }
 }
 .fancy-link {
   text-decoration: none;
@@ -282,24 +289,17 @@ footer {
 }
 @media screen and (max-width: 1024px) {
   .projects-links {
-  display: flex;
-  flex-basis: auto;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
+    display: flex;
+    flex-basis: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
   }
-.project-left-section,
-.project-right-section {
-  width: 100%;
-  margin: 2% auto;
-}
-.project-left-section p,
-.project-right-section p {
-  padding: 0 0.5em;
-  font-size: 1.1rem;
-  text-align: start;
-  line-height: 1.25;
-}
+  .project-left-section,
+  .project-right-section {
+    width: 100%;
+    margin: 2% auto;
+  }
 }
 .title1 {
   font-size: clamp(1rem, 3vw, 2.5rem);
@@ -399,11 +399,10 @@ footer {
   .contact-links {
     display: flex;
     flex-direction: column;
-    gap: 5%;
     justify-content: space-evenly;
   }
   .contactbtn {
-    margin: 2% auto 0;
+    margin: 5% auto 0;
     width: 100%;
   }
 }
