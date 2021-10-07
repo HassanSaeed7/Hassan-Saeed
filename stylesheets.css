@@ -156,7 +156,6 @@ footer {
 }
 .about-me {
   width: 95%;
-  text-align: justify;
   font-size: 1.3rem;
   margin: auto;
   line-height: 1.5;
@@ -316,7 +315,6 @@ footer {
 .project-right-section p {
   padding: 0 0.5em;
   font-size: 1.1rem;
-  text-align: justify;
   line-height: 1.35;
 }
 .projects-links ul {
@@ -477,11 +475,11 @@ footer {
 .red {
   color: red;
 }
-.coffee p {
+.coffee {
   text-align: center;
   font-family: "Tourney", cursive;
   font-size: clamp(1rem, 2vw, 5rem);
-  margin: 5%;
+  padding-top: 4%;
   margin-block-start: 0;
   margin-block-end: 0;
 }
