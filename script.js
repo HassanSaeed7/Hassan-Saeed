@@ -1,18 +1,15 @@
-// const parallax = document.getElementById("parallax")
+// const navToggle = document.querySelector('.nav__toggle');
+// const navFocus = document.querySelector('.nav__link');
 
-// window.addEventListener("scroll", function() {
-//     let offset = window.pageYOffset
-//     parallax.style.backgroundPositionY = offset * 0.7 + "px"
-// })
+// navToggle.addEventListener('click', () => {
+//   document.body.classList.toggle('nav-open');
+// });
 
-
-// var prevScrollpos = window.pageYOffset;
-// window.onscroll = function() {
-// var currentScrollPos = window.pageYOffset;
-//   if (prevScrollpos > currentScrollPos) {
-//     document.getElementById("navbar").style.top = "0";
-//   } else {
-//     document.getElementById("navbar").style.top = "-50px";
-//   }
-//   prevScrollpos = currentScrollPos;
-// }
+// /* 
+//    Allow the toggle to work if the tab key is used to access menu...
+//    I'm not sure if this is the best way or if it works all the time.
+//    I tried experimenting with keyup and the keycode but this seemed simple.
+// */
+// navFocus.addEventListener('focus', () => {
+//   document.body.classList.toggle('nav-open');
+// });
