@@ -14,8 +14,8 @@ html {
 ::-webkit-scrollbar-track {
   background: black;
   /* border-radius: 100vw; 
-  margin-block: 0.2em; */
-  border-left: 1px solid rgb(19, 19, 20);
+  margin-block: 0.2em; 
+  border-left: 1px solid rgb(19, 19, 20); */
 }
 ::-webkit-scrollbar-thumb {
   background: rgba(15, 138, 94, 0.4);
@@ -455,7 +455,7 @@ footer {
 
 .projects-links li {
   list-style: none;
-  font-size: clamp(0.8rem, 1vw, 1.5rem);
+  font-size: clamp(1rem, 1vw + 0.5rem, 3rem);
 }
 .project-img {
   width: 100%;
