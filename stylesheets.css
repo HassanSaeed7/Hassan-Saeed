@@ -5,6 +5,7 @@
 }
 html {
   scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
 }
 body {
   margin: 0;
@@ -15,32 +16,29 @@ body {
 }
 .container {
   overflow: hidden;
+  
 }
 footer {
   background: #000000;
   clip-path: polygon(0 3vw, 100% 0, 100% 100%, 0 100%);
 }
 /* NAV */
-
-
 .menu-wrap {
   position: fixed;
   top: 0;
   left: 0;
   z-index: 1;
 }
-
 .menu-wrap .toggler {
   position: absolute;
   top: 0;
   left: 0;
   z-index: 2;
   cursor: pointer;
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   opacity: 0;
 }
-
 .menu-wrap .hamburger {
   position: absolute;
   top: 5px;
@@ -56,15 +54,6 @@ footer {
   align-items: center;
   justify-content: center;
 }
-
-/* @media screen and (max-width: 1024px) {
-  .menu-wrap .hamburger {
-    width: 30px;
-    height: 30px;
-  }
-  
-} */
-
 /* Hamburger Line */
 .menu-wrap .hamburger > div {
   position: relative;
@@ -77,7 +66,6 @@ footer {
   justify-content: center;
   transition: all 0.4s ease;
 }
-
 /* Hamburger Lines - Top & Bottom */
 .menu-wrap .hamburger > div::before,
 .menu-wrap .hamburger > div::after {
@@ -92,37 +80,33 @@ footer {
 .menu-wrap .hamburger > div::after {
   top: 10px;
 }
-
 /* Animation */
 .menu-wrap .toggler:checked + .hamburger > div {
-  transform: rotate(135deg);
+  transform: rotate(45deg);
 }
-
 /* Turns Lines Into X */
 .menu-wrap .toggler:checked + .hamburger > div:before,
 .menu-wrap .toggler:checked + .hamburger > div:after {
   top: 0;
   transform: rotate(90deg);
 }
-
 /* Rotate On Hover When Checked */
 .menu-wrap .toggler:checked:hover + .hamburger > div {
   transform: rotate(225deg);
+  transition: transform 400ms ease-out; 
 }
-
 /* Show Menu */
 .menu-wrap .toggler:checked ~ .menu {
   visibility: visible;
 }
-
 .menu-wrap .toggler:checked ~ .menu > div {
   transform: scale(1);
-  transition-duration: 550ms;
+  transition-duration: 400ms;
 }
 
 .menu-wrap .toggler:checked ~ .menu > div > div {
   opacity: 1;
-  transition:  opacity 0.4s ease 0.4s;
+  transition: opacity 450ms ease-in 350ms;
 }
 
 .menu-wrap .menu {
@@ -149,7 +133,7 @@ footer {
   justify-content: center;
   transform: scale(0);
   transform-origin: 0 0;
-  transition: all 750ms ease;
+  transition: all 600ms ease-in;
   
 }
 
@@ -158,7 +142,7 @@ footer {
   max-width: 90vw;
   max-height: 100vh;
   opacity: 0;
-  transition: opacity 0.25s ease;
+  transition: opacity 250ms ease;
 }
 
 .menu-wrap .menu > div > div > ul > li {
@@ -172,7 +156,7 @@ footer {
   text-transform: uppercase;
   color: inherit;
   text-decoration: none;
-  transition: color 0.4s ease;
+  transition: color 250ms ease;
 }
 .menu-wrap .menu > div > div > ul > li > a:hover {
   text-decoration: underline;
@@ -184,6 +168,7 @@ footer {
   text-align: center;
   height: 100vh;
   width: 100%;
+  scroll-snap-align: center;
 }
 .headline {
   font-family: "Tourney", cursive;
@@ -229,7 +214,6 @@ footer {
   text-align: center;
   white-space: nowrap;
   padding: 0.85em;
-  
   background: #000000;
 }
 .headline2::before {
@@ -278,6 +262,7 @@ footer {
   align-items: center;
   background: black;
   clip-path: polygon(0 2vw, 100% 0, 100% calc(100% - 2vw), 0 100%);
+  scroll-snap-align: center;
 }
 .about-me {
   width: 95%;
@@ -341,6 +326,7 @@ footer {
 .projects {
   display: flex;
   flex-direction: column;
+  scroll-snap-align: center;
 }
 .tech-used {
   display: flex;
@@ -386,7 +372,6 @@ footer {
   height: calc(100% - 6px);
   left: 0;
   bottom: 0;
-  
   transform: translate(5px, 5px);
 }
 
@@ -520,6 +505,7 @@ footer {
   justify-content: space-evenly;
   margin: 1% auto 0;
   padding: 5%;
+  scroll-snap-align: center;
 }
 @media screen and (max-width: 1024px) {
   .contact-links {
