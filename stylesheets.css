@@ -7,6 +7,23 @@ html {
   scroll-behavior: smooth;
   scroll-snap-type: y mandatory;
 }
+::-webkit-scrollbar {
+  width: 0.8em;
+  height: 1em;
+}
+::-webkit-scrollbar-track {
+  background: black;
+  /* border-radius: 100vw; 
+  margin-block: 0.2em; */
+  border-left: 1px solid rgb(19, 19, 20);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(15, 138, 94, 0.4);
+  /* border-radius: 100vw; */
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(15, 138, 94, 0.75);
+}
 body {
   margin: 0;
   padding: 0;
@@ -16,7 +33,6 @@ body {
 }
 .container {
   overflow: hidden;
-  
 }
 footer {
   background: #000000;
