@@ -397,8 +397,8 @@ footer {
   justify-content: space-between;
   text-decoration: none;
   height: max-content;
-  margin: 2% auto;
-  padding: 2% 0;
+  margin: auto;
+  padding: 4% 0;
   letter-spacing: 0.1em;
   clip-path: polygon(0 4vw, 100% 0, 100% calc(100% - 4vw), 0 100%);
 }
