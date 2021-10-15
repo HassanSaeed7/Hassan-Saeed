@@ -45,7 +45,7 @@ body {
 }
 
 .work-experience li {
-    
+    list-style: none;
     padding: 2%;
     margin: 0 auto;
     text-align: left;
