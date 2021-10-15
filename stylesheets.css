@@ -428,7 +428,11 @@ footer {
     margin: 2% auto;
   }
   .projects-links.reverseimg {
-  flex-direction: row-reverse;
+    display: flex;
+    flex-basis: auto;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column-reverse;
   }
 }
 .title1 {
