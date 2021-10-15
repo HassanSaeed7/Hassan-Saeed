@@ -193,7 +193,7 @@ footer {
   top: 30%;
   width: max-content;
   margin: 0 auto;
-  font-size: clamp(1rem, 5.5vw, 5rem);
+  font-size: clamp(1rem, 5.5vw, 10rem);
   text-align: center;
   white-space: nowrap;
   padding: 0.5em;
@@ -436,12 +436,10 @@ footer {
   }
 }
 .title1 {
-  font-size: clamp(1rem, 3vw, 2.5rem);
   margin: 1% auto;
   margin-right: 0;
 }
 .title2 {
-  font-size: clamp(1rem, 4vw, 2.5rem);
   margin: 1% auto;
   margin-left: 0;
 }

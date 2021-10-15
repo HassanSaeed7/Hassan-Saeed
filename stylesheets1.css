@@ -12,16 +12,16 @@ body {
     font-family: "Montserrat", sans-serif;
     background-color: rgba(0, 0, 0, 0.9);
 }
-.container {
+.container1 {
     display: flex;
     margin: 5px auto 0px;
 }
 .resume-left {
     width: 30%;
-    
 }
 .resume-right {
     background-color: black;
+    width: 100%;
 }
 .resume-button {
     color: red;
