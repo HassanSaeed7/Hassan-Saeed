@@ -433,9 +433,15 @@ footer {
   }
   .btn1, 
   .btn2 {
+    width: 100%;
     margin: auto;
-    display: flex;
+    
     flex-direction: column;
+    justify-content: center;
+  }
+  .tech-used {
+  width: 100%;
+  justify-content: space-evenly;
   }
 }
 .title1 {
