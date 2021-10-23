@@ -419,9 +419,12 @@ footer {
   .btn2 {
     width: 100%;
     margin: auto;
-    
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+  }
+  .btn1 {
+    flex-direction: column-reverse;
   }
   .tech-used {
   width: 100%;
