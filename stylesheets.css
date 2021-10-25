@@ -15,7 +15,6 @@ html {
   background: black;
   /* margin-block: 0.2em;
   border-radius: 100vw;  */
-  
 }
 ::-webkit-scrollbar-thumb {
   background: rgba(15, 138, 94, 0.4);
@@ -185,7 +184,7 @@ footer {
   top: 30%;
   width: max-content;
   margin: 0 auto;
-  font-size: clamp(1rem, 5.5vw, 10rem);
+  font-size: clamp(1.5rem, 5.5vw, 10rem);
   text-align: center;
   white-space: nowrap;
   padding: 0.5em;
@@ -218,7 +217,7 @@ footer {
   top: 35%;
   width: max-content;
   margin: 0 auto;
-  font-size: clamp(1rem, 1.5rem, 1.5rem);
+  font-size: clamp(1rem, 2vw, 2rem);
   text-align: center;
   white-space: nowrap;
   padding: 0.85em;
