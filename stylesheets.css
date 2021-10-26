@@ -434,10 +434,10 @@ footer {
 }
 .project-description {
   margin: 1em auto;
-  border-top: 1px solid green;
-  border-bottom: 1px solid green;
+  border-top: 2px solid green;
+  border-bottom: 2px solid green;
   width: 90%;
-  padding: 1em;
+  padding: 1.5em;
   font-size: 1rem;
   line-height: 1.30;
 }
