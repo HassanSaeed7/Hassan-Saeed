@@ -423,6 +423,9 @@ footer {
   width: 100%;
   justify-content: space-evenly;
   }
+  .fab {
+    zoom: 75%;
+  }
 }
 .title1 {
   margin: 1% auto;
@@ -434,10 +437,10 @@ footer {
 }
 .project-description {
   margin: 1em auto;
-  border-top: 2px solid green;
-  border-bottom: 2px solid green;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
   width: 90%;
-  padding: 1.5em;
+  padding: 1em;
   font-size: 1rem;
   line-height: 1.30;
 }
@@ -445,9 +448,6 @@ footer {
   display: flex;
   flex-direction: row;
   width: 100%;
-}
-.project-left-section ul,
-.project-right-section ul {
   justify-content: space-evenly;
 }
 
