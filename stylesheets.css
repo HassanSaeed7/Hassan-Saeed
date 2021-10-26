@@ -292,6 +292,7 @@ footer {
   transform-origin: left;
 }
 .fancy-link-projects {
+  margin: 2% auto;
   text-decoration: none;
   color: green;
   position: relative;
@@ -431,11 +432,14 @@ footer {
   margin: 1% auto;
   margin-left: 0;
 }
-.project-left-section p,
-.project-right-section p {
-  padding: 0 0.5em;
-  font-size: 1.1rem;
-  line-height: 1.35;
+.project-description {
+  margin: 1em auto;
+  border-top: 1px solid green;
+  border-bottom: 1px solid green;
+  width: 90%;
+  padding: 1em;
+  font-size: 1rem;
+  line-height: 1.30;
 }
 .projects-links ul {
   display: flex;
