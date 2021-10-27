@@ -12,16 +12,12 @@ body {
     font-family: "Montserrat", sans-serif;
     background-color: rgba(0, 0, 0, 0.9);
 }
-@media screen and (max-width: 1024px) {
-    .container1 {
-        display: flex;
-        flex-direction: column;
-    }
-    
-}
+
 .container1 {
     display: flex;
-    margin: 5px auto 0px;
+}
+.resume-left {
+    width: 30%;
 }
 .resume-right {
     background-color: black;
@@ -105,10 +101,10 @@ body {
   }
 .resume-contact ul {
     list-style: none;
-    padding: 5%;
+    padding: 3%;
 }
 .resume-contact li {
-    padding: 5%;
+    padding: 3%;
 }
 .resume-contact li a {
     color: white;
@@ -120,7 +116,7 @@ body {
 .resume-intro,
 .resume-contact,
 .resume-3rd {
-    padding: 20% 0;
+    padding: 1em 0;
     border-bottom: 1px solid white;
     width: 80%;
     margin: 0 auto;
@@ -135,4 +131,13 @@ body {
 }
 .fab {
     padding: 5%;
+}
+@media screen and (max-width: 1024px) {
+    .container1 {
+        display: flex;
+        flex-direction: column;
+    }
+    .resume-left {
+        width: 100%;
+    }
 }
