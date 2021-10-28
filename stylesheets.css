@@ -406,8 +406,8 @@ footer {
   display: flex;
   flex-direction: row;
   width: 100%;
-  justify-content: space-evenly;
-  margin: 0 auto;
+  justify-content: space-between;
+  margin: 2% auto;
 }
 .projects-links li {
   list-style: none;
@@ -563,28 +563,49 @@ footer {
     display: none;
   }
   .headline3 {
-    display: block;
-    width: max-content;
-    position: absolute;
-    right: 0;
-    top: 5%;
+    display: flex;
+    flex-direction: column;
     background: black;
+    position: relative;
+    top: 10%;
+    right: 0;
+  }
+  .headline3::before {
+    content: "";
+    border: 3px solid white;
+    position: absolute;
+    width: calc(100% - 6px);
+    height: calc(100% - 6px);
+    left: 0;
+    bottom: 0;
+    transform: translate(5px, 5px);
+  }
+  .headline3::after {
+    content: "";
+    border: 3px solid white;
+    position: absolute;
+    width: calc(100% - 5px);
+    height: calc(100% - 5px);
+    left: 0;
+    bottom: 0;
+    transform: translate(-5px, -5px);
   }
   .headline3 h1 {
     font-family: "Tourney", cursive;
-    white-space: nowrap;
     text-transform: uppercase;
     letter-spacing: 0.15em;
-    font-weight: 100;
+    font-weight: 400;
     text-align: right;
-    font-size: 9vh;
+    font-size: clamp(1rem, 10vw + 0.5rem, 3rem);
   }
   .headline3 li {
     list-style: none;
-    margin: 0 auto;
   }
   .headline4 {
     display: block;
+    font-family: "Tourney", cursive;
+    font-weight: 100;
+    text-align: right;
   }
   .headline4 h2 {
     font-size: 75%;
