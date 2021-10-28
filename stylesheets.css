@@ -568,7 +568,9 @@ footer {
     background: black;
     position: relative;
     top: 10%;
-    right: 0;
+    left: 40%;
+    width: 500px;
+    height: 500px;
   }
   .headline3::before {
     content: "";
@@ -578,7 +580,7 @@ footer {
     height: calc(100% - 6px);
     left: 0;
     bottom: 0;
-    transform: translate(5px, 5px);
+    transform: translate(-5px, -5px);
   }
   .headline3::after {
     content: "";
@@ -588,18 +590,18 @@ footer {
     height: calc(100% - 5px);
     left: 0;
     bottom: 0;
-    transform: translate(-5px, -5px);
+    transform: translate(5px, 5px);
   }
   .headline3 h1 {
+    display: flex;
+    justify-content: flex-end;
     font-family: "Tourney", cursive;
     text-transform: uppercase;
-    letter-spacing: 0.15em;
+    letter-spacing: 0.05em;
     font-weight: 400;
     text-align: right;
-    font-size: clamp(1rem, 10vw + 0.5rem, 3rem);
-  }
-  .headline3 li {
-    list-style: none;
+    font-size: 3.5rem;
+    margin: 5%;
   }
   .headline4 {
     display: block;
