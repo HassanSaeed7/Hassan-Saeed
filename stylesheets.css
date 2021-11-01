@@ -331,7 +331,7 @@ footer {
   font-size: clamp(2rem, 4vw, 2.5rem);
   font-family: "Tourney", cursive;
   text-transform: uppercase;
-  letter-spacing: 0.15em;
+  letter-spacing: 0.10em;
   position: relative;
   padding: 1em;
   font-weight: 100;
