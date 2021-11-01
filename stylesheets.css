@@ -540,20 +540,13 @@ footer {
     how to remove anchor outlines when tabbing through
   } */
 }
-
 .fab {
   margin: 3%;
 }
-.red {
-  color: red;
-}
 .coffee {
   text-align: center;
-  font-family: "Tourney", cursive;
   font-size: clamp(1rem, 2vw, 5rem);
   padding-top: 4%;
-  margin-block-start: 0;
-  margin-block-end: 0;
 }  
 @media screen and (max-width: 1024px) {
  .headline {
