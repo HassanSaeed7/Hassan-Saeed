@@ -542,12 +542,6 @@ footer {
   .email.contactbtn:focus-within::after {
     content: "EMAIL";
   }
-  /* a:focus { 
-    outline: none;
-    This would be bad if they have animations off 
-    while tab searching through the site. Figure out 
-    how to remove anchor outlines when tabbing through
-  } */
 }
 
 .fab {
