@@ -555,18 +555,21 @@ footer {
   .headline2 {
     display: none;
   }
-  .intro {
+  .Intro {
     display: flex;
     justify-content: center;
+    align-items: flex-start;
   }
   .headline3 {
     display: flex;
+    justify-content: center;
+    align-items: flex-end;
     flex-direction: column;
     background-color: var(--main-color);
     position: relative;
-    top: 25%;
-    width: 90%;
+    width: max-content;
     padding: 5%;
+    margin-top: 50%;
   }
   .headline3::before {
     content: "";
@@ -577,7 +580,6 @@ footer {
     left: 0;
     bottom: 0;
     transform: translate(-5px, -5px);
-    border-left: none;
   }
   .headline3::after {
     content: "";
@@ -588,7 +590,7 @@ footer {
     left: 0;
     bottom: 0;
     transform: translate(5px, 5px);
-    border-left: none;
+    
   }
   .headline3 h1 {
     display: flex;
