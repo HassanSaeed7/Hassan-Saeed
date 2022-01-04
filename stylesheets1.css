@@ -8,9 +8,9 @@ html {
 body {
     margin: 0;
     padding: 0;
-    text-align: center;
     font-family: "Montserrat", sans-serif;
     background-color: rgba(0, 0, 0, 0.9);
+    color: white;
 }
 
 .container1 {
@@ -18,11 +18,13 @@ body {
 }
 .resume-left {
     width: 30%;
+    text-align: center;
 }
 .resume-right {
     background-color: black;
     width: 100%;
 }
+
 .resume-button {
     color: red;
     font-size: 1.5em;
@@ -34,9 +36,7 @@ body {
     background: transparent;
     position: fixed;
 }
-.container h1 {
-    font-size: 3em;
-}
+
 .container p {
     margin: 0 auto;
 }
@@ -57,8 +57,9 @@ body {
 .resume-section {
     margin: 5% auto;
     padding-bottom: 5%;
-    width: 80%;
-    border-bottom: 2px solid #b1eaff;
+    width: 95%;
+    border-bottom: 2px solid white;
+    padding-left: 1%;
 }
 .resume-section:last-child {
     border-bottom: 0px;
@@ -68,6 +69,7 @@ body {
     margin-bottom: 2%;
     font-weight: 700;
     text-transform: uppercase;
+    text-align: center;
 }
 .resume_work ul {
     width: 100%;
@@ -113,12 +115,21 @@ body {
 .resume-contact li a:hover {
     text-decoration: underline;
 }
+.education {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    text-align: center;
+}
+.education1 {
+    text-align: right;
+}
 .resume-intro,
 .resume-contact,
 .resume-3rd {
     padding: 1em 0;
     border-bottom: 1px solid white;
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 }
 .resume-3rd {
@@ -132,6 +143,9 @@ body {
 .fab {
     padding: 5%;
 }
+.center {
+    text-align: center;
+}
 @media screen and (max-width: 1024px) {
     .container1 {
         display: flex;
@@ -140,4 +154,8 @@ body {
     .resume-left {
         width: 100%;
     }
+    .education {
+        flex-direction: column;
+    }
+    
 }
