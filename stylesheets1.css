@@ -17,12 +17,15 @@ body {
     display: flex;
 }
 .resume-left {
-    width: 30%;
+    width: 20%;
     text-align: center;
+    position: fixed;
 }
 .resume-right {
     background-color: black;
-    width: 100%;
+    width: 80%;
+    position: relative;
+    left: 20%;
 }
 
 .resume-button {
@@ -42,6 +45,7 @@ body {
 }
 .resume-img {
     width: 100%;
+    height: 50vh;
 }
 
 .work-experience li {
@@ -66,7 +70,7 @@ body {
 }
 .title {
     font-size: clamp(2rem, 4vw, 2.5rem);
-    margin-bottom: 2%;
+    
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
@@ -138,7 +142,7 @@ body {
 /*tech stack logos*/
 .logos {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
 }
 .fab {
     padding: 5%;
@@ -146,16 +150,25 @@ body {
 .center {
     text-align: center;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 824px) {
     .container1 {
         display: flex;
         flex-direction: column;
     }
     .resume-left {
+        position: relative;
         width: 100%;
     }
     .education {
         flex-direction: column;
+    }
+    .resume-right {
+        width: 100%;
+        left: 0;
+    }
+    .resume-img {
+        width: 25%;
+        height: auto;
     }
     
 }
