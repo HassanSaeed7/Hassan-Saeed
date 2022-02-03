@@ -336,7 +336,7 @@ footer {
 }
 /* Projects Section */
 .project-border {
-  background-image: url(images/film.png);
+  background-image: url(images/strip1.png);
   background-repeat: repeat;
   background-attachment: scroll;
   background-size: contain;
@@ -346,7 +346,7 @@ footer {
   display: flex;
   flex-direction: column;
   scroll-snap-align: center;
-  background-color: grey;
+  background-color: black;
   
 }
 .tech-used {
