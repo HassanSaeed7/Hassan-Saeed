@@ -1,0 +1,35 @@
+<div>
+          <h2 id="contact" class="contact-title">Contact Me</h2>
+          <ul class="contact-links">
+            <li>
+              <a
+                class="contactbtn github"
+                href="https://github.com/HassanSaeed7"
+                target="_blank"
+                >GITHUB</a
+              >
+            </li>
+            <li>
+              <a class="contactbtn resume" href="resume.html" target="_blank"
+                >RESUME</a
+              >
+            </li>
+            <!-- GOOGLE DRIVE RESUME HERE href="https://drive.google.com/file/d/1IUpQ4RwVX6Qbd2CqGKCGgsdyoxRjYlTt/view?usp=sharing" -->
+            <li>
+              <a
+                class="contactbtn email"
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=hsaeed1007@gmail.com"
+                target="_blank"
+                >EMAIL</a
+              >
+            </li>
+            <li>
+              <a
+                class="contactbtn cert"
+                href="https://www.freecodecamp.org/hassansaeed"
+                target="_blank"
+                >CERTIFICATIONS</a
+              >
+            </li>
+          </ul>
+        </div>
