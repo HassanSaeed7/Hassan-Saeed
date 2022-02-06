@@ -1,6 +1,6 @@
 @font-face {
-  font-family: Organic;
-  src: url(/Fonts/OrganicalPersonalUseBoldItalic-2O6xe.ttf);
+  font-family: 'Organic';
+  src: url('Fonts/OrganicalPersonalUseBoldItalic-2O6xe.ttf');
 }
 
 :root {
@@ -190,8 +190,12 @@ footer {
   left: 0;
   object-fit: cover;
 }
+.titleContainer::after {
+  background: red;
+  z-index: 1000
+}
 /* .noise::before {
-  background: url(/noise12.mp4);
+  background: url(/noise10.gif);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -220,7 +224,7 @@ footer {
   
 }
 .title {
-  font-size: clamp(2rem, 3vw, 2rem);
+  font-size: clamp(1rem, 2vw, 1.5rem);
   font-weight: 700;
   text-transform: uppercase;
   position: relative;
@@ -228,8 +232,8 @@ footer {
   text-shadow: 1px 1px 2px blue;
   margin-block-start: 0;
   margin-block-end: 0;
-  bottom: 14%;
   text-align: center;
+  bottom: 15%;
 }
 
 .glitch {
@@ -240,10 +244,9 @@ footer {
   text-transform: uppercase;
   position: relative;
   font-family: 'Organic';
-  /* animation: glitch 2000ms infinite; */
-  
+  padding: 0.15em;
   color: blue;
-  perspective: -1200px;
+  bottom: 16%;
 }
 
 /* About Section */
@@ -379,12 +382,7 @@ footer {
   text-decoration: none;
   padding: 10% 0;
   letter-spacing: 0.1em;
-  background: radial-gradient(
-    circle farthest-side,
-    rgba(255, 255, 255, 0.25),
-    rgba(255, 255, 255, 0)
-  );
-  /* background: linear-gradient(95deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0)); */
+  background: radial-gradient(circle farthest-side, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0));
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.18);
@@ -392,6 +390,12 @@ footer {
   width: 80%;
   margin: 0 auto;
   border: 1px solid rgba(0, 0, 0, 1);
+  /* background: url(../images/moView.png);
+  background-repeat: no-repeat;
+  
+  background-size: contain;
+   */
+  
 }
 .project-left-section,
 .project-right-section {
