@@ -12,6 +12,23 @@
     <link rel="stylesheet" href="stylesheets.css" media="print" onload="this.media='all'"/>
     <title>Hassan Saeed - Personal Portfolio</title>
   </head>
+  <header class="header">
+      <nav class="navbar">
+          <ul>
+              <li class="nav_item">
+                <a href="#projects" class="nav-links">Projects</a>
+              </li>
+              <li class="nav_item">
+                <a href="#contact" class="nav-links">Contact</a>
+              </li>
+              <li class="nav_item">
+                <a href="resume.html" target="_blank" class="nav-links"
+                  >Resume</a
+                >
+              </li>
+            </ul>
+      </nav>
+    </header>
 
   <body>
     <div class="container">
@@ -22,7 +39,7 @@
           Your browser does not support HTML5 video tag.
         </video>
         <div class="titleContainer">
-          <h1 class="glitch">Portfolio</h1>
+          <h1 class="glitch" tabindex="0">Portfolio</h1>
           <h2 class="title">A<br />Hassan Saeed<br />Production</h2>
         </div>
       </div>
@@ -263,16 +280,14 @@
           </div>
         </div>
       </div>
-
-      <footer id="about">
-        <div class="about">
+      <div class="about">
           <img
             class="credits"
             src="images/credits.webp"
             alt="Credits"
             width="99%"
           />
-          <div class="about-me">
+          <div class="tech-stack">
             <i class="fab fa-html5 fa-2x"></i>
             <i class="fab fa-css3-alt fa-2x"></i>
             <i class="fab fa-js-square fa-2x"></i>
@@ -283,12 +298,15 @@
             <i class="fab fa-git-alt fa-2x"></i>
           </div>
         </div>
-        
+</div>
+
+
+      <footer id="contact">
         <div class="contact-container">
           <div class="contact-title">
-            <h3>Contact Me</h3>
+            <h3>Contact</h3>
           </div>
-          <div class="contact-body">
+          
               <ul class="contact-links">
                   <li>
                     <a
@@ -321,13 +339,13 @@
                     >
                   </li>
                 </ul>
-          </div>
+          
         </div>
 
 
 
       </footer>
-    </div>
+    
     <script
       src="https://kit.fontawesome.com/defadb8f1e.js"
       crossorigin="anonymous"
