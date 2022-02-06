@@ -209,7 +209,7 @@ footer {
 .contact-title {
   width: 20%;
   background-color: inherit;
-  margin: auto;
+  margin: 0 auto;
   text-align: center;
   font-size: clamp(2rem, 2vw, 2.5rem);
   text-transform: uppercase;
