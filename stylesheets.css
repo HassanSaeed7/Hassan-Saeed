@@ -1,12 +1,8 @@
 @font-face {
   font-family: Organic;
-  src: url(/OrganicalPersonalUseBoldItalic-2O6xe.ttf);
+  src: url(/Fonts/OrganicalPersonalUseBoldItalic-2O6xe.ttf);
 }
-@font-face {
-  font-family: Persimmon;
-  src: url(/Font/PersimmonpersonaluseBlack-0WoWv.otf);
-  
-}
+
 :root {
   --accent-color: #f66b34;
   --main-color: #000000;
@@ -28,7 +24,7 @@ html {
 ::-webkit-scrollbar-track {
   background: grey;
   margin-block: 0.2em;
-  border-radius: 100vw; 
+  border-radius: 100vw;
 }
 ::-webkit-scrollbar-thumb {
   background: rgba(0, 0, 0, 0.7);
@@ -197,10 +193,9 @@ footer {
   width: 100vw;
   height: 100vh;
   content: "";
-  opacity: 0.9;  
+  opacity: 0.9;
   z-index: -100;
   pointer-events: none;
-  
 }
 .Intro {
   text-align: center;
@@ -223,7 +218,7 @@ footer {
   font-weight: 700;
   text-transform: uppercase;
   position: relative;
-  color: black;
+  color: white;
   text-shadow: 1px 1px 2px red;
   margin-block-start: 0;
   margin-block-end: 0;
@@ -234,7 +229,7 @@ footer {
   font-weight: 700;
   text-transform: uppercase;
   position: relative;
-  color: black;
+  color: white;
   text-shadow: 1px 1px 2px red;
   margin-block-start: 0;
   margin-block-end: 0;
@@ -247,14 +242,11 @@ footer {
   font-weight: 700;
   text-transform: uppercase;
   position: relative;
-  
-  
+  font-family: 'Organic';
   /* animation: glitch 2000ms infinite; */
   bottom: 19%;
+  color: red;
 }
-
-
-
 
 /* About Section */
 .about {
@@ -274,7 +266,6 @@ footer {
   display: flex;
   justify-content: space-evenly;
   opacity: 0.5;
-  
 }
 
 .fancy-link-projects {
@@ -319,7 +310,6 @@ footer {
   flex-direction: column;
   scroll-snap-align: center;
   background-color: rgba(160, 82, 45, 0.15);
-  
 }
 .tech-used {
   display: flex;
@@ -335,7 +325,7 @@ footer {
   margin: 2% auto;
   text-align: center;
   font-size: clamp(3rem, 5vw, 6rem);
-  font-family: "Tourney", cursive;
+  
   text-transform: uppercase;
   letter-spacing: 0.5rem;
   position: relative;
@@ -352,7 +342,6 @@ footer {
   margin: 2% auto;
   text-align: center;
   font-size: clamp(3rem, 4vw, 5rem);
-  font-family: "Tourney", cursive;
   text-transform: uppercase;
   letter-spacing: 0.05rem;
   position: relative;
@@ -392,16 +381,19 @@ footer {
   text-decoration: none;
   padding: 10% 0;
   letter-spacing: 0.1em;
-  background: radial-gradient(circle farthest-side, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0));
+  background: radial-gradient(
+    circle farthest-side,
+    rgba(255, 255, 255, 0.25),
+    rgba(255, 255, 255, 0)
+  );
   /* background: linear-gradient(95deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0)); */
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
-  border:1px solid rgba(255, 255, 255, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.18);
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
   width: 80%;
   margin: 0 auto;
   border: 1px solid rgba(0, 0, 0, 1);
-  
 }
 .project-left-section,
 .project-right-section {
@@ -413,7 +405,6 @@ footer {
   align-content: center;
   padding: 1em;
   align-items: stretch;
-
 }
 
 .title1 {
@@ -570,9 +561,8 @@ footer {
 .fab {
   margin: 3%;
 }
- 
+
 @media screen and (max-width: 1024px) {
- 
   .projects-links {
     display: flex;
     flex-basis: auto;
@@ -652,5 +642,3 @@ footer {
     transition-delay: 0s !important;
   }
 }
-
-
