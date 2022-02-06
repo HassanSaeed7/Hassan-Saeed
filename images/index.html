@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Tourney:wdth,wght@125,100;125,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tourney:wdth,wght@125,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="stylesheets.css" />
+    <title>Hassan Saeed</title>
+  </head>
+
+  <body>
+    <div class="menu-wrap">
+      <input type="checkbox" class="toggler" id="checkId" />
+      <div class="hamburger">
+        <div></div>
+      </div>
+      <div class="menu">
+        <div>
+          <div>
+            <ul>
+              <li class="nav__item">
+                <a href="#projects" class="nav-links">Projects</a>
+              </li>
+              <li class="nav__item">
+                <a href="#contact" class="nav-links">Contact</a>
+              </li>
+              <li class="nav__item">
+                <a href="resume.html" target="_blank" class="nav-links"
+                  >Resume</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="noise"></div>
+        <div class="Intro">
+          <video loop muted autoplay preload="auto" class="video">
+            <source src="noise20.webm" type="video/webm">
+              Your browser does not support HTML5 video tag. 
+          </video>
+          <div class="titleContainer">
+            <h1 class="glitch">Portfolio</h1>
+            <h2 class="title">A<br>Hassan Saeed<br>Production</h2>
+          </div>
+          
+        </div>
+      
+<div class="projects-container">
+      <div class="projects">
+        <div class="project-title-container">
+        <h2 class="project-title" id="projects">Project reel</h2></div>
+        <div class="project-border">
+        <div class="projects-links">
+          <section class="project-left-section">
+            <h2 class="project-title title1">MoView</h2>
+            <ul>
+              <div class="fancy-link-projects">
+                <li>Web Application</li>
+              </div>
+              <div class="fancy-link-projects">
+                <li>UI/UX</li>
+              </div>
+              <div class="fancy-link-projects">
+                <li>Web API</li>
+              </div>
+            </ul>
+            <p class="project-description">
+              This is a very basic search engine for movies. I made this project
+              after following an API tutorial which taught me how to work with
+              API keys, .env files, and JavaScript DOM manipulation. The website
+              is responsive. I was hoping to add more functionality to this
+              application but I decided to transition into learning React.JS so
+              that I could try to create a larger and more functional web
+              application quickly by reusing components.
+            </p>
+            <div class="btn2">
+              <div class="tech-used">
+                <i class="fab fa-html5 fa-3x"></i>
+                <i class="fab fa-css3-alt fa-3x"></i>
+                <i class="fab fa-js-square fa-3x"></i>
+              </div>
+              <a
+                class="project-btn"
+                href="https://hassansaeed7.github.io/MoView/"
+                target="_blank"
+                >View Here
+              </a>
+            </div>
+          </section>
+
+          <section class="project-right-section">
+            <img
+              class="project-img"
+              alt="project image"
+              src="images\MoView.png"
+            />
+          </section>
+        </div>
+      
+      
+        <div class="projects-links reverseimg">
+          <section class="project-left-section">
+            <img
+              class="project-img"
+              alt="project image"
+              src="images\Hassan Saeed.png"
+            />
+          </section>
+          <section class="project-right-section">
+            <h2 class="project-title title2">Landing Pages</h2>
+            <ul>
+              <div class="fancy-link-projects">
+                <li>React SPA</li>
+              </div>
+              <div class="fancy-link-projects">
+                <li>UI/UX</li>
+              </div>
+              <div class="fancy-link-projects">
+                <li>CSS Preprocessors</li>
+              </div>
+            </ul>
+            <p class="project-description">
+              These are some landing pages I made to practice webpage designs.
+              They vary in their styling methods. They each have a specific CSS
+              framework or library used such as Styled Components, Bootstrap,
+              Reactstrap, and SASS/SCSS.
+            </p>
+            <div class="btn1">
+              <a class="project-btn" href="#">View Here</a>
+              <div class="tech-used">
+                <i class="fab fa-html5 fa-3x"></i>
+                <i class="fab fa-css3-alt fa-3x"></i>
+                <i class="fab fa-sass fa-3x"></i>
+                <i class="fab fa-bootstrap fa-3x"></i>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <div class="projects-links">
+          <section class="project-left-section">
+            <h2 class="project-title title1">Link Keeper</h2>
+            <ul>
+              <div class="fancy-link-projects">
+                <li>Chrome Extension</li>
+              </div>
+              <div class="fancy-link-projects">
+                <li>JavaScript</li>
+              </div>
+              <div class="fancy-link-projects">
+                <li>Local Storage</li>
+              </div>
+            </ul>
+            <p class="project-description">
+              Keep track of your leads, links, and other important websites with
+              this chrome extension that I completed while following the Scrimba
+              JavaScript tutorials. Originally, the Scrimba tutorial did not
+              implement a download button and I felt this function was necessary
+              to make the extension a bit more robust. Now, you can share your
+              leads (or any other list of links) with your team with a quick
+              .csv file download!
+            </p>
+            <div class="btn2">
+              <div class="tech-used">
+                <i class="fab fa-html5 fa-3x"></i>
+                <i class="fab fa-css3-alt fa-3x"></i>
+                <i class="fab fa-js-square fa-3x"></i>
+                <i class="fab fa-chrome fa-3x"></i>
+              </div>
+              <a class="project-btn" href="#">View Here</a>
+            </div>
+          </section>
+          <section class="project-right-section">
+            <img
+              class="project-img"
+              alt="project image"
+              src="images\linkeeper.png"
+            />
+          </section>
+        </div>
+
+        <div class="projects-links reverseimg">
+          <section class="project-left-section">
+            <img
+              class="project-img"
+              alt="project image"
+              src="images\Glassic.png"
+            />
+          </section>
+
+          <section class="project-right-section">
+            <h2 class="project-title title2">E-Commerce Site</h2>
+            <ul>
+              <div class="fancy-link-projects">
+                <li>Online Shop</li>
+              </div>
+              <div class="fancy-link-projects">
+                <li>UI Design</li>
+              </div>
+              <div class="fancy-link-projects">
+                <li>Web Development</li>
+              </div>
+            </ul>
+
+            <p class="project-description">
+              This is a mock e-commerce site with a shopping cart. I originally
+              began working on this site to update the UI of a family member's
+              Wordpress site but we scrapped the design for an Elementor
+              approach, instead. Still, I feel pretty happy with how far it got!
+            </p>
+
+            <div class="btn1">
+              <a class="project-btn" href="#">View Here</a>
+              <div class="tech-used">
+                <i class="fab fa-html5 fa-3x"></i>
+                <i class="fab fa-css3-alt fa-3x"></i>
+                <i class="fab fa-js-square fa-3x"></i>
+                <i class="fab fa-wordpress fa-3x"></i>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <div class="projects-links">
+          <section class="project-left-section">
+            <h2 class="project-title title1">FilmForager</h2>
+            <ul>
+              <div class="fancy-link-projects">
+                <li>React SPA</li>
+              </div>
+              <div class="fancy-link-projects">
+                <li>UI Design</li>
+              </div>
+              <div class="fancy-link-projects">
+                <li>Web Development</li>
+              </div>
+            </ul>
+            <p class="project-description">
+              Another movie application? Yes, I felt that the best way to gauge
+              my understanding of frontend technologies is by refactoring the
+              code with a framework. This is the first app that I did without
+              following a tutorial. Wow! It was a doozy! I got stuck for weeks
+              on the search functionality alone! However, I am so glad I
+              approached this project in that manner. It reinforced my
+              understanding on React (and JavaScript and CSS) more than any
+              tutorial or bootcamp has done. It improved my understanding of
+              virtual DOM manipulation, JSX, state management, react hooks, and
+              custom hook creation.
+            </p>
+            <div class="btn2">
+              <div class="tech-used">
+                <i class="fab fa-html5 fa-3x"></i>
+                <i class="fab fa-css3-alt fa-3x"></i>
+                <i class="fab fa-js-square fa-3x"></i>
+                <i class="fab fa-react fa-3x"></i>
+              </div>
+              <a class="project-btn" href="#">View Here</a>
+            </div>
+          </section>
+          <section class="project-right-section">
+            <img
+              class="project-img"
+              alt="project image"
+              src="images\MoView.png"
+            />
+          </section>
+        </div>
+      </div>
+      </div>
+</div>
+
+      <footer id="about">
+        
+
+        <div class="about">
+          <img src="images/credits.png" width="99%" style="opacity: 0.5;margin: 0 auto;"> 
+          <div class="about-me">
+            <!-- <h2 class="about-title" id="about">About</h2>
+              <p>
+                Hello! Thank you for taking the time to explore my portfolio. I
+                graduated with a Bachelors Degree for Public Policy and Political
+                Science from the University of California, Riverside. While I do not
+                have a computer science background, I took an elective on the
+                subject in my last year and enjoyed it so much, that I wanted to
+                continue to learn more about programming in my free time through
+                personal projects and boot camps.
+              </p>
+              <p>
+                <a class="fancy-link" href="#about">I am a web designer.</a> I enjoy
+                designing beautiful user interfaces for websites and web
+                applications. I can spend hours just centering a div, I love it. I
+                have tried CSS preprocessors like SCSS/SASS and and CSS frameworks
+                like Bootstrap and Tailwind CSS.
+              </p>
+              <p>
+                <a class="fancy-link" href="#about">I am a front-end developer.</a>
+                I have experience with front-end web application development through
+                personal projects and coding boot camps. Beyond HTML, CSS, and
+                JavaScript, I am familiar with JQuery, NodeJS, and ReactJS.
+              </p>
+              <p>
+                <a class="fancy-link" href="#about">I am a wordpress developer.</a>
+                From site creation to search engine optimization, Wordpress sites
+                can be great options for small businesses or independent creators
+                who are looking to join the internet community. Wordpress provides a
+                number of robust features and plugins that can get your site
+                launched in minutes, complete with blog posts, a shop, customer
+                portal, and a number of other features.
+              </p>
+              <p>
+                Please, enjoy your visit and check out some of my projects! Contact
+                me if you are interested in collaborating, let's grab a coffee! I am
+                always looking for feedback and advice as well! Thank you for your
+                time.
+              </p> -->
+            
+            <i class="fab fa-html5 fa-2x"></i>
+            <i class="fab fa-css3-alt fa-2x"></i>
+            <i class="fab fa-js-square fa-2x"></i>
+            <i class="fab fa-sass fa-2x"></i>
+            <i class="fab fa-bootstrap fa-2x"></i>
+            <i class="fab fa-react fa-2x"></i>
+            <i class="fab fa-wordpress fa-2x"></i>
+            <i class="fab fa-git-alt fa-2x"></i>
+            </div>
+        </div>
+      </footer>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/defadb8f1e.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -243,10 +243,10 @@ footer {
   font-weight: 700;
   text-transform: uppercase;
   position: relative;
-  font-family: 'Organic';
+  font-family: "Organic", sans-serif;
   padding: 0.15em;
   color: blue;
-  bottom: 16%;
+  bottom: 12%;
 }
 
 /* About Section */
@@ -325,7 +325,7 @@ footer {
   width: max-content;
   margin: 2% auto;
   text-align: center;
-  font-size: clamp(3rem, 5vw, 6rem);
+  font-size: clamp(2rem, 5vw, 6rem);
   
   text-transform: uppercase;
   letter-spacing: 0.5rem;
