@@ -182,8 +182,16 @@ footer {
   text-decoration: underline;
 }
 /*Front Page with heading and subheading*/
-.noise::before {
-  background: url(noise10.gif);
+.video {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+/* .noise::before {
+  background: url(/noise12.mp4);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -196,9 +204,8 @@ footer {
   opacity: 0.9;
   z-index: -100;
   pointer-events: none;
-}
+} */
 .Intro {
-  text-align: center;
   height: 100vh;
   width: 100%;
   scroll-snap-align: center;
@@ -210,42 +217,33 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
+  
 }
 .title {
-  font-size: clamp(1rem, 4vw, 2.5rem);
+  font-size: clamp(2rem, 3vw, 2rem);
   font-weight: 700;
   text-transform: uppercase;
   position: relative;
   color: white;
-  text-shadow: 1px 1px 2px red;
+  text-shadow: 1px 1px 2px blue;
   margin-block-start: 0;
   margin-block-end: 0;
-  bottom: 15%;
+  bottom: 14%;
+  text-align: center;
 }
-.header2 {
-  font-size: clamp(1rem, 4vw, 2.5rem);
-  font-weight: 700;
-  text-transform: uppercase;
-  position: relative;
-  color: white;
-  text-shadow: 1px 1px 2px red;
-  margin-block-start: 0;
-  margin-block-end: 0;
-  bottom: 22%;
-}
+
 .glitch {
   margin-block-start: 0;
   margin-block-end: 0;
-  font-size: clamp(2rem, 7vw, 9rem);
+  font-size: clamp(3rem, 6vw, 8rem);
   font-weight: 700;
   text-transform: uppercase;
   position: relative;
   font-family: 'Organic';
   /* animation: glitch 2000ms infinite; */
-  bottom: 19%;
-  color: red;
+  
+  color: blue;
+  perspective: -1200px;
 }
 
 /* About Section */
@@ -601,7 +599,7 @@ footer {
     justify-content: space-evenly;
   }
   .fab {
-    zoom: 75%;
+    zoom: 50%;
   }
   .projects,
   #contact {
