@@ -183,7 +183,7 @@ footer {
 }
 /*Front Page with heading and subheading*/
 .noise::before {
-  background: url(/images/noise10.gif);
+  background: url(/noise10.gif);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
