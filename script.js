@@ -1,6 +1,8 @@
-//Using JQuery to toggle the navbar on/off whenever someone clicks anywhere (a link, on the side to exit out of nav, etc)
-$(document).ready(function() {     
-    $(".nav-links").click(function(){
-       $(".toggler").prop("checked", false);
-    });   
-});
+function toggleClass(element) {
+    if(element.className == "project-img") {
+        element.Classname = "blurb show"
+    } else {
+        element.className = "project-img"
+    }
+    
+}
