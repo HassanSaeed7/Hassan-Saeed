@@ -349,7 +349,7 @@ footer {
   padding: 1rem;
 }
 .project-description {
-  margin: 0 auto 1em;
+  margin: 1rem auto;
   border-top: 2px solid var(--btn-color);
   border-bottom: 2px solid white;
   width: 90%;
@@ -638,6 +638,9 @@ footer {
     display: none;
   }
   .title {
+    display: none;
+  }
+  .fancy-link-projects {
     display: none;
   }
 }
