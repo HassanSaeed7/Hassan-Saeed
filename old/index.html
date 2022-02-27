@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta
+      name="description"
+      content="A personal portfolio to showcase my development skill."
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="preload" href="stylesheets.css" as="style" />
+    <link
+      rel="stylesheet"
+      href="stylesheets.css"
+      media="print"
+      onload="this.media='all'"
+    />
+    <title>Hassan Saeed - Personal Portfolio</title>
+  </head>
+  <header class="header">
+    <nav class="navbar">
+      <ul>
+        <li class="nav_item">
+          <a href="#projects" class="nav-links">Projects</a>
+        </li>
+        <li class="nav_item">
+          <a href="#contact" class="nav-links">Contact</a>
+        </li>
+        <li class="nav_item">
+          <a href="resume.html" class="nav-links">Resume</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <body>
+    <div class="container">
+      <div class="noise">
+      <div class="Intro">
+        <video loop muted autoplay preload="auto" class="video">
+          <source src="images\noise21.webm" type="video/webm" />
+          Your browser does not support HTML5 video tag.
+        </video>
+        <div class="titleContainer">
+          <h1 class="glitch" tabindex="0">Portfolio</h1>
+          <h2 class="title">A<br />Hassan Saeed<br />Production</h2>
+        </div>
+      </div>
+</div>
+      <div class="projects-container">
+        <div class="projects">
+          <div class="project-title-container">
+            <h2 class="project-title" id="projects">Project reel</h2>
+          </div>
+          <div class="project-border">
+            <div class="projects-links">
+              <div class="blurb">
+                <section class="project-left-section">
+                  <h2 class="project-title title1">MoView</h2>
+                  <ul>
+                    <li class="fancy-link-projects">Web Application</li>
+                    <li class="fancy-link-projects">UI/UX</li>
+                    <li class="fancy-link-projects">Web API</li>
+                  </ul>
+                  <p class="project-description">
+                    This is a very basic search engine for movies. I made this
+                    project after following an API tutorial which taught me how
+                    to work with API keys, .env files, and JavaScript DOM
+                    manipulation. The website is responsive. I was hoping to add
+                    more functionality to this application but I decided to
+                    transition into learning React.JS so that I could try to
+                    create a larger and more functional web application quickly
+                    by reusing components.
+                  </p>
+                  <div class="btn2">
+                    <div class="tech-used">
+                      <i class="fab fa-html5 fa-3x"></i>
+                      <i class="fab fa-css3-alt fa-3x"></i>
+                      <i class="fab fa-js-square fa-3x"></i>
+                    </div>
+                    <a
+                      class="project-btn"
+                      href="https://hassansaeed7.github.io/MoView/"
+                      target="_blank"
+                      >View Here
+                    </a>
+                  </div>
+                </section>
+              </div>
+
+              <section class="project-right-section">
+                <img
+                  class="project-img"
+                  alt="project image"
+                  src="images\MoView.webp"
+                  onclick="toggleClass()"
+                />
+              </section>
+            </div>
+
+            <div class="projects-links reverseimg">
+              <section class="project-left-section">
+                <img
+                  class="project-img"
+                  alt="project image"
+                  src="images\Hassan Saeed.webp"
+                />
+              </section>
+              <div class="blurb">
+                <section class="project-right-section">
+                  <h2 class="project-title title2">Landing Pages</h2>
+                  <ul>
+                    <li class="fancy-link-projects">React SPA</li>
+                    <li class="fancy-link-projects">UI/UX</li>
+                    <li class="fancy-link-projects">CSS Preprocessors</li>
+                  </ul>
+                  <p class="project-description">
+                    These are some landing pages I made to practice webpage
+                    designs. They vary in their styling methods. They each have
+                    a specific CSS framework or library used such as Styled
+                    Components, Bootstrap, Reactstrap, and SASS/SCSS.
+                  </p>
+                  <div class="btn1">
+                    <a class="project-btn" href="#">View Here</a>
+                    <div class="tech-used">
+                      <i class="fab fa-html5 fa-3x"></i>
+                      <i class="fab fa-css3-alt fa-3x"></i>
+                      <i class="fab fa-sass fa-3x"></i>
+                      <i class="fab fa-bootstrap fa-3x"></i>
+                    </div>
+                  </div>
+                </section>
+              </div>
+            </div>
+
+            <div class="projects-links">
+              <div class="blurb">
+                <section class="project-left-section">
+                  <h2 class="project-title title1">Link Keeper</h2>
+                  <ul>
+                    <li class="fancy-link-projects">Chrome Extension</li>
+                    <li class="fancy-link-projects">JavaScript</li>
+                    <li class="fancy-link-projects">Local Storage</li>
+                  </ul>
+                  <p class="project-description">
+                    Keep track of your leads, links, and other important
+                    websites with this chrome extension that I completed while
+                    following the Scrimba JavaScript tutorials. Originally, the
+                    Scrimba tutorial did not implement a download button and I
+                    felt this function was necessary to make the extension a bit
+                    more robust. Now, you can share your leads (or any other
+                    list of links) with your team with a quick .csv file
+                    download!
+                  </p>
+                  <div class="btn2">
+                    <div class="tech-used">
+                      <i class="fab fa-html5 fa-3x"></i>
+                      <i class="fab fa-css3-alt fa-3x"></i>
+                      <i class="fab fa-js-square fa-3x"></i>
+                      <i class="fab fa-chrome fa-3x"></i>
+                    </div>
+                    <a class="project-btn" href="#">View Here</a>
+                  </div>
+                </section>
+              </div>
+              <section class="project-right-section">
+                <img
+                  class="project-img"
+                  alt="project image"
+                  src="images\linkeeper.webp"
+                />
+              </section>
+            </div>
+
+            <div class="projects-links reverseimg">
+              <section class="project-left-section">
+                <img
+                  class="project-img"
+                  alt="project image"
+                  src="images\Glassic.webp"
+                />
+              </section>
+              <div class="blurb">
+                <section class="project-right-section">
+                  <h2 class="project-title title2">E-Commerce Site</h2>
+                  <ul>
+                    <li class="fancy-link-projects">Online Shop</li>
+                    <li class="fancy-link-projects">UI Design</li>
+                    <li class="fancy-link-projects">Web Development</li>
+                  </ul>
+
+                  <p class="project-description">
+                    This is a mock e-commerce site with a shopping cart. I
+                    originally began working on this site to update the UI of a
+                    family member's Wordpress site but we scrapped the design
+                    for an Elementor approach, instead. Still, I feel pretty
+                    happy with how far it got!
+                  </p>
+
+                  <div class="btn1">
+                    <a class="project-btn" href="#">View Here</a>
+                    <div class="tech-used">
+                      <i class="fab fa-html5 fa-3x"></i>
+                      <i class="fab fa-css3-alt fa-3x"></i>
+                      <i class="fab fa-js-square fa-3x"></i>
+                      <i class="fab fa-wordpress fa-3x"></i>
+                    </div>
+                  </div>
+                </section>
+              </div>
+            </div>
+
+            <div class="projects-links">
+              <div class="blurb">
+                <section class="project-left-section">
+                  <h2 class="project-title title1">FilmForager</h2>
+                  <ul>
+                    <li class="fancy-link-projects">React SPA</li>
+                    <li class="fancy-link-projects">UI Design</li>
+                    <li class="fancy-link-projects">Web Development</li>
+                  </ul>
+                  <p class="project-description">
+                    Another movie application? Yes, I felt that the best way to
+                    gauge my understanding of frontend technologies is by
+                    refactoring the code with a framework. This is the first app
+                    that I did without following a tutorial. Wow! It was a
+                    doozy! I got stuck for weeks on the search functionality
+                    alone! However, I am so glad I approached this project in
+                    that manner. It reinforced my understanding on React (and
+                    JavaScript and CSS) more than any tutorial or bootcamp has
+                    done. It improved my understanding of virtual DOM
+                    manipulation, JSX, state management, react hooks, and custom
+                    hook creation.
+                  </p>
+                  <div class="btn2">
+                    <div class="tech-used">
+                      <i class="fab fa-html5 fa-3x"></i>
+                      <i class="fab fa-css3-alt fa-3x"></i>
+                      <i class="fab fa-js-square fa-3x"></i>
+                      <i class="fab fa-react fa-3x"></i>
+                    </div>
+                    <a class="project-btn" href="#">View Here</a>
+                  </div>
+                </section>
+              </div>
+              <section class="project-right-section">
+                <img
+                  class="project-img"
+                  alt="project image"
+                  src="images\filmf.webp"
+                />
+              </section>
+            </div>
+
+            <div class="projects-links reverseimg">
+              <section class="project-left-section">
+                <img
+                  class="project-img"
+                  alt="project image"
+                  src="images\tot.webp"
+                />
+              </section>
+
+              <div class="blurb">
+                <section class="project-right-section">
+                  <h2 class="project-title title2">This or That?</h2>
+                  <ul>
+                    <li class="fancy-link-projects">React</li>
+                    <li class="fancy-link-projects">Game Development</li>
+                  </ul>
+
+                  <p class="project-description">
+                    This is the first web app I created without any external
+                    help. I had the idea to create a 'this or that' style game
+                    out of a Letterboxd list I came across titled
+                    <strong
+                      >If you like (2010’s movie) watch (older movie)
+                      list</strong
+                    >. The matching criteria is as follows:
+                    "Older films" must've come out at least 20 years ago.
+                    Primarily based on director's influences and
+                    recommendations. The movies either have common themes,
+                    filmmaking techniques or an overall similar atmosphere. It
+                    is a simple game that loads an array of the movies from the
+                    list and presents them as game tiles you can select.
+                  </p>
+
+                  <div class="btn1">
+                    <a class="project-btn" href="https://hassansaeed7.github.io/OldNew/">View Here</a>
+                    <div class="tech-used">
+                      <i class="fab fa-html5 fa-3x"></i>
+                      <i class="fab fa-css3-alt fa-3x"></i>
+                      <i class="fab fa-js-square fa-3x"></i>
+                      <i class="fab fa-react fa-3x"></i>
+                    </div>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="about">
+        <img
+          class="credits"
+          src="images/credits.webp"
+          alt="Credits"
+          width="99%"
+        />
+        <div class="tech-stack">
+          <i class="fab fa-html5 fa-2x"></i>
+          <i class="fab fa-css3-alt fa-2x"></i>
+          <i class="fab fa-js-square fa-2x"></i>
+          <i class="fab fa-sass fa-2x"></i>
+          <i class="fab fa-bootstrap fa-2x"></i>
+          <i class="fab fa-react fa-2x"></i>
+          <i class="fab fa-wordpress fa-2x"></i>
+          <i class="fab fa-git-alt fa-2x"></i>
+        </div>
+      </div>
+    </div>
+
+    <footer id="contact">
+      <div class="contact-container">
+        <div class="contact-title">
+          <h3>Contact</h3>
+        </div>
+
+        <ul class="contact-links">
+          <li>
+            <a
+              class="contactbtn github"
+              href="https://github.com/HassanSaeed7"
+              target="_blank"
+              >GITHUB</a
+            >
+          </li>
+          <li>
+            <a class="contactbtn resume" href="resume.html" target="_blank"
+              >RESUME</a
+            >
+          </li>
+          <!-- GOOGLE DRIVE RESUME HERE href="https://drive.google.com/file/d/1IUpQ4RwVX6Qbd2CqGKCGgsdyoxRjYlTt/view?usp=sharing" -->
+          <li>
+            <a
+              class="contactbtn email"
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=hsaeed1007@gmail.com"
+              target="_blank"
+              >EMAIL</a
+            >
+          </li>
+          <li>
+            <a
+              class="contactbtn cert"
+              href="https://www.freecodecamp.org/hassansaeed"
+              target="_blank"
+              >CERTIFICATIONS</a
+            >
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <script
+      src="https://kit.fontawesome.com/defadb8f1e.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
